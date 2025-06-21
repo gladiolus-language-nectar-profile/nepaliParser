@@ -1,0 +1,1004 @@
+1	शर्मिंदा करना	abash	abashed	abashed	abashes	abashing
+2	कम गर्नुहोस्	abate	abated	abated	abates	abating
+3	रुको	abide	abode	abode	abides	abiding
+4	अवशोषित गर्नुहोस्	absorb	absorbed	absorbed	absorbs	absorbing
+5	स्वीकार गर्नुहोस्	accept	accepted	accepted	accepts	accepting
+6	साथमा	accompany	accompanied	accompanied	accompanies	accompanying
+7	दर्द	ache	ached	ached	aches	aching
+8	प्राप्त करना	achieve	achieved	achieved	achieves	achieving
+9	प्राप्त करना	acquire	acquired	acquired	acquires	acquiring
+10	कार्य [सम्पादन गर्ने]	act	acted	acted	acts	acting
+11	थप्नुहोस्	add	added	added	adds	adding
+12	ठेगाना	address	addressed	addressed	addresses	addressing
+13	समायोजन गर्नुहोस्	adjust	adjusted	adjusted	adjusts	adjusting
+14	प्रशंसा गर्नुहोस्	admire	admired	admired	admires	admiring
+15	स्वीकार गर्नुहोस्	admit	admitted	admitted	admits	admitting
+16	सल्लाह दिनुहोस्	advise	advised	advised	advises	advising
+17	खर्च गर्ने	 afford	afforded	afforded	affords	affording
+18	सहमत हुनुहोस्	agree	agreed	agreed	agrees	agreeing
+19	चमकदार, उत्रनु	alight	alit	alit	alights	alighting
+20	अनुमति दिनुहोस्	allow	allowed	allowed	allows	allowing
+21	चेतन, प्राणीवाचक	animate	animated	animated	animates	animating
+22	घोषणा गर्नुहोस्	announce	announced	announced	announces	announcing
+23	उत्तर दिनुहोस्	answer	answered	answered	answers	answering
+24	माफी माग्नुहोस्	apologize	apologized	apologized	apologizes	apologizing
+25	देखा पर्दछ	appear	appeared	appeared	appears	appearing
+26	ताली बजाना	applaud	applauded	applauded	applauds	applauding
+27	लागू गर्नुहोस्	apply	applied	applied	applies	applying
+28	दृष्टिकोण	approach	approached	approached	approaches	approaching
+29	अनुमोदन गर्नुहोस्	approve	approved	approved	approves	approving
+30	बहस गर्नुहोस्	argue	argued	argued	argues	arguing
+31	उठ ्नुहोस्	arise	arose	arisen	arises	arising
+32	व्यवस्थित गर्नुहोस्	arrange	arranged	arranged	arranges	arranging
+33	गिरफ्तारी	arrest	arrested	arrested	arrests	arresting
+34	सोध्नुहोस्	ask	asked	asked	asks	asking
+35	ठोकेर भन्नु, जोर	assert	asserted	asserted	asserts	asserting
+36	छांटना, छाँते याये, अलग अलग याये, क्वचा थले	assort	assorted	assorted	assorts	assorting
+37	चकित पार्ने	astonish	astonished	astonished	astonishes	astonishing
+38	आक्रमण[सम्पादन गर्ने]	attack	attacked	attacked	attacks	attacking
+39	उपस्थित हुनुहोस्	attend	attended	attended	attends	attending
+40	आकर्षित करना	attract	attracted	attracted	attracts	attracting
+41	अडिट	audit	audited	audited	audits	auditing
+42	टाढै रहनुहोस्	avoid	avoided	avoided	avoids	avoiding
+43	ब्यूँझनुहोस्	awake	awoke	awoken	awakes	awaking
+44	धमाका	bang	banged	banged	bangs	banging
+45	निर्वासन	banish	banished	banished	banishes	banishing
+46	bash	bash	bashed	bashed	bashes	bashing
+47	ब्याट	bat	batted	batted	bats	batting
+48	हो(एम,हो)	be (am,are)	was / were	been	is	being
+49	भालू	bear	bore	born	bears	bearing
+50	भालू	bear	bore	borne	bears	bearing
+51	 मार्नु, धडकन, पिटे	beat	beat	beaten	beats	beating
+52	सुन्दर बनाउनुहोस्	beautify	beautified	beautified	beautifies	beautifying
+53	हो-जाती-है	become	became	become	becomes	becoming
+54	हुन सक्छ	befall	befell	befallen	befalls	befalling
+55	भीख माँगना	beg	begged	begged	begs	begging
+56	सुरु गर्नुहोस्	begin	began	begun	begins	beginning
+57	व्यवहार गर्दछ	behave	behaved	behaved	behaves	behaving
+58	देखो	behold	beheld	beheld	beholds	beholding
+59	विश्वास गर्नुहोस्	believe	believed	believed	believes	believing
+60	सम्बन्धित छ	belong	belonged	belonged	belongs	belonging
+61	झुकाव	bend	bent	bent	bends	bending
+62	लाका काये	bereave	bereft	bereft	bereaves	bereaving
+63	बिन्ती	beseech	besought	besought	beseeches	beseeching
+64	शर्त लगाना	bet	bet	bet	bets	betting
+65	विश्वासघात गर्नुहोस्	betray	betrayed	betrayed	betrays	betraying
+66	बोली	bid	bade	bidden	bids	bidding
+67	बोली	bid	bid	bid	bids	bidding
+68	बाइंड	bind	bound	bound	binds	binding
+69	काटने वाला	bite	bit	bitten	bites	biting
+70	रक्तस्राव हो गया	bleed	bled	bled	bleeds	bleeding
+71	आशीर्वाद दें	bless	blessed	blessed	blesses	blessing
+72	फूल	blossom	blossomed	blossomed	blossoms	blossoming
+73	झटका	blow	blew	blown	blows	blowing
+74	अस्पष्टता	blur	blurred	blurred	blurs	blurring
+75	लज्जित	blush	blushed	blushed	blushes	blushing
+76	बोर्ड	board	boarded	boarded	boards	boarding
+77	घमन्ड गर्नुहोस्	boast	boasted	boasted	boasts	boasting
+78	उबालना	boil	boiled	boiled	boils	boiling
+79	धनुष	bow	bowed	bowed	bows	bowing
+80	बाकस	box	boxed	boxed	boxes	boxing
+81	ब्रे	bray	brayed	brayed	brays	braying
+82	ब्रेक	break	broke	broken	breaks	breaking
+83	साँस लिनुहोस्	breathe	breathed	breathed	breathes	breathing
+84	नस्ल	breed	bred	bred	breeds	breeding
+85	लाओ	bring	brought	brought	brings	bringing
+86	प्रसारण[सम्पादन गर्ने]	broadcast	broadcast	broadcast	broadcasts	broadcasting
+87	ब्रस	brush	brushed	brushed	brushes	brushing
+88	निर्माण गर्नुहोस्	build	built	built	builds	building
+89	जलन	burn	burnt	burnt	burns	burning
+90	विस्फोट	burst	burst	burst	bursts	bursting
+91	दफनाया	bury	buried	buried	buries	burying
+92	bust bust	bust	bust	bust	busts	busting
+93	खरीदें	buy	bought	bought	buys	buying
+94	बज	buzz	buzzed	buzzed	buzzes	buzzing
+95	गणना गर्नुहोस्	calculate	calculated	calculated	calculates	calculating
+96	कल गर्नुहोस्	call	called	called	calls	calling
+97	क्यानभास	canvass	canvassed	canvassed	canvasses	canvassing
+98	क्याप्चर गर्नुहोस्	capture	captured	captured	captures	capturing
+99	लास्स	caress	caressed	caressed	caresses	caressing
+100	बोक्ने	carry	carried	carried	carries	carrying
+101	उत्कीर्ण	carve	carved	carved	carves	carving
+102	नगद	cash	cashed	cashed	cashes	cashing
+103	कास्ट	cast	cast	cast	casts	casting
+104	पकड़ो	catch	caught	caught	catches	catching
+105	कारण	cause	caused	caused	causes	causing
+106	बन्द गर्नुहोस्	cease	ceased	ceased	ceases	ceasing
+107	मनाओ मना	celebrate	celebrated	celebrated	celebrates	celebrating
+108	चुनौती[सम्पादन गर्ने]	challenge	challenged	challenged	challenges	challenging
+109	परिवर्तन गर्नुहोस्	change	changed	changed	changes	changing
+110	शुल्क	charge	charged	charged	charges	charging
+111	पीछा करना	chase	chased	chased	chases	chasing
+112	च्याट	chat	chatted	chatted	chats	chatting
+113	जाँच गर्नुहोस्	check	checked	checked	checks	checking
+114	उत्साहित	cheer	cheered	cheered	cheers	cheering
+115	चबाना	chew	chewed	chewed	chews	chewing
+116	chide	chide	chid	chid/chidden	chides	chiding
+117	चिप	chip	chipped	chipped	chips	chipping
+118	गला घोटना	choke	choked	choked	chokes	choking
+119	रोज्नुहोस्	choose	chose	chosen	chooses	choosing
+120	वर्गीकृत गर्नुहोस्	classify	classified	classified	classifies	classifying
+121	सफा गर्नुहोस्	clean	cleaned	cleaned	cleans	cleaning
+122	cleve	cleave	clove/cleft	cloven/cleft	cleaves	cleaving
+123	क्लिक गर्नुहोस्	click	clicked	clicked	clicks	clicking
+124	आरोहण[सम्पादन गर्ने]	climb	climbed	climbed	climbs	climbing
+125	चिपकने वाला	cling	clung	clung	clings	clinging
+126	बन्द गर्नुहोस्	close	closed	closed	closes	closing
+127	कपडा	clothe	clad	clad	clothes	clothing
+128	Clutch	clutch	clutched	clutched	clutches	clutching
+129	पतन	collapse	collapsed	collapsed	collapses	collapsing
+130	सङ्कलन गर्नुहोस्	collect	collected	collected	collects	collecting
+131	रङ	colour	coloured	coloured	colours	colouring
+132	आओ	come	came	come	comes	coming
+133	टिप्पणी	comment	commented	commented	comments	commenting
+134	तुलना गर्नुहोस्	compare	compared	compared	compares	comparing
+135	बाध्य पार्नुहोस्	compel	compelled	compelled	compels	compelling
+136	प्रतिस्पर्धा गर्नुहोस्	compete	competed	competed	competes	competing
+137	शिकायत करते हुए	complain	complained	complained	complains	complaining
+138	पूरा भयो	complete	completed	completed	completes	completing
+139	अन्त्य	conclude	concluded	concluded	concludes	concluding
+140	आचरण[सम्पादन गर्ने]	conduct	conducted	conducted	conducts	conducting
+141	स्वीकार गर्नुहोस्	confess	confessed	confessed	confesses	confessing
+142	सीमित गर्नुहोस्	confine	confined	confined	confines	confining
+143	जफत गर्ने	confiscate	confiscated	confiscated	confiscates	confiscating
+144	भ्रमित पार्नुहोस्	confuse	confused	confused	confuses	confusing
+145	बधाई	congratulate	congratulated	congratulated	congratulates	congratulating
+146	जडान गर्नुहोस्	connect	connected	connected	connects	connecting
+147	connote	connote	connoted	connoted	connotes	connoting
+148	जीत	conquer	conquered	conquered	conquers	conquering
+149	अभिषेक गर्नुहोस्	consecrate	consecrated	consecrated	consecrates	consecrating
+150	सहमति	consent	consented	consented	consents	consenting
+151	संरक्षण गर्नुहोस्	conserve	conserved	conserved	conserves	conserving
+152	विचार गर्नुहोस्	consider	considered	considered	considers	considering
+153	consign	consign	consigned	consigned	consigns	consigning
+154	यसमा समावेश छ	consist	consisted	consisted	consists	consisting
+155	कन्सोल	console	consoled	consoled	consoles	consoling
+156	Consort	consort	consorted	consorted	consorts	consorting
+157	षडयन्त्र रच्दै	conspire	conspired	conspired	conspires	conspiring
+158	गठन गर्नुहोस्	constitute	constituted	constituted	constitutes	constituting
+159	अवरोध गर्नुहोस्	constrain	constrained	constrained	constrains	constraining
+160	निर्माण गर्नुहोस्	construct	constructed	constructed	constructs	constructing
+161	construe	construe	construed	construed	construes	construing
+162	परामर्श गर्नुहोस्	consult	consulted	consulted	consults	consulting
+163	समावेश गर्नुहोस्	contain	contained	contained	contains	containing
+164	contemn	contemn	contemned	contemned	contemns	contemning
+165	तर्क	contend	contended	contended	contends	contending
+166	प्रतिस्पर्धा[सम्पादन गर्ने]	contest	contested	contested	contests	contesting
+167	जारी राख्नुहोस्	continue	continued	continued	continues	continuing
+168	सम्झौता	contract	contracted	contracted	contracts	contracting
+169	खण्डन गर्नुहोस्	contradict	contradicted	contradicted	contradicts	contradicting
+170	कन्ट्रास्ट	contrast	contrasted	contrasted	contrasts	contrasting
+171	योगदान गर्नुहोस्	contribute	contributed	contributed	contributes	contributing
+172	प्रतिशोध	contrive	contrived	contrived	contrives	contriving
+173	नियन्त्रण[सम्पादन गर्ने]	control	controlled	controlled	controls	controlling
+174	convene	convene	convened	convened	convenes	convening
+175	converge	converge	converged	converged	converges	converging
+176	वार्तालाप[सम्पादन गर्ने]	converse	conversed	conversed	converses	conversing
+177	रूपान्तरण गर्नुहोस्	convert	converted	converted	converts	converting
+178	सम्प्रेषण गर्नुहोस्	convey	conveyed	conveyed	conveys	conveying
+179	दोषी ठहर	convict	convicted	convicted	convicts	convicting
+180	आश्वस्त पार्नुहोस्	convince	convinced	convinced	convinces	convincing
+181	coo	coo	cooed	cooed	coos	cooing
+182	खाना पकाउने	cook	cooked	cooked	cooks	cooking
+183	ठंडा	cool	cooled	cooled	cools	cooling
+184	सहयोग गर्नुहोस्	co-operate	co-operated	co-operated	co-operates	co-operating
+185	सामना गर्नुहोस्	cope	coped	cope	copes	coping
+186	प्रतिलिपि बनाउनुहोस्	copy	copied	copied	copies	copying
+187	सही	correct	corrected	corrected	corrects	correcting
+188	अनुरूप	correspond	corresponded	corresponded	corresponds	corresponding
+189	corrode	corrode	corroded	corroded	corrodes	corroding
+190	भ्रष्ट	corrupt	corrupted	corrupted	corrupts	corrupting
+191	लागत[सम्पादन गर्ने]	cost	cost	cost	costs	costing
+192	खोकी	cough	coughed	coughed	coughs	coughing
+193	सल्लाह[सम्पादन गर्ने]	counsel	counselled	counselled	counsels	counselling
+194	गणना गर्नुहोस्	count	counted	counted	counts	counting
+195	कोर्स	course	coursed	coursed	courses	coursing
+196	आवरण	cover	covered	covered	covers	covering
+197	कोवर	cower	cowered	cowered	cowers	cowering
+198	दरार	crack	cracked	cracked	cracks	cracking
+199	क्रैकल	crackle	crackled	crackled	crackles	crackling
+200	दुर्घटना	crash	crashed	crashed	crashes	crashing
+201	लालसा	crave	craved	craved	craves	craving
+202	सिर्जना गर्नुहोस्	create	created	created	creates	creating
+203	रेंगना	creep	crept	crept	creeps	creeping
+204	पालना	crib	cribbed	cribbed	cribs	cribbing
+205	पार गर्नुहोस्	cross	crossed	crossed	crosses	crossing
+206	भीड़	crowd	crowded	crowded	crowds	crowding
+207	क्रश	crush	crushed	crushed	crushes	crushing
+208	रोना	cry	cried	cried	cries	crying
+209	कर्ब	curb	curbed	curbed	curbs	curbing
+210	उपचार[सम्पादन गर्ने]	cure	cured	cured	cures	curing
+211	वक्र	curve	curved	curved	curves	curving
+212	काटियो	cut	cut	cut	cuts	cutting
+213	चक्र	cycle	cycled	cycled	cycles	cycling
+214	क्षति	damage	damaged	damaged	damages	damaging
+215	गीला	damp	damped	damped	damps	damping
+216	नृत्य[सम्पादन गर्ने]	dance	danced	danced	dances	dancing
+217	हिम्मत	dare	dared	dared	dares	daring
+218	dash dash	dash	dashed	dashed	dashes	dashing
+219	चकाचौंध	dazzle	dazzled	dazzled	dazzles	dazzling
+220	सम्झौता	deal	dealt	dealt	deals	dealing
+221	क्षय	decay	decayed	decayed	decays	decaying
+222	निर्णय गर्नुहोस्	decide	decided	decided	decides	deciding
+223	घोषणा गर्नुहोस्	declare	declared	declared	declares	declaring
+224	सजायो	decorate	decorated	decorated	decorates	decorating
+225	घटाउने	decrease	decreased	decreased	decreases	decreasing
+226	समर्पित करना	dedicate	dedicated	dedicated	dedicates	dedicating
+227	विलम्ब	delay	delayed	delayed	delays	delaying
+228	मेट्नुहोस्	delete	deleted	deleted	deletes	deleting
+229	इन्कार गर्नुहोस्	deny	denied	denied	denies	denying
+230	निर्भर गर्दछ	depend	depended	depended	depends	depending
+231	deprive	deprive	deprived	deprived	deprives	depriving
+232	प्राप्त गर्नुहोस्	derive	derived	derived	derives	deriving
+233	वर्णन गर्नुहोस्	describe	described	described	describes	describing
+234	इच्छा	desire	desired	desired	desires	desiring
+235	नाश करना	destroy	destroyed	destroyed	destroys	destroying
+236	अलग गर्नुहोस्	detach	detached	detached	detaches	detaching
+237	पत्ता लगाउनुहोस्	detect	detected	detected	detects	detecting
+238	निर्धारण गर्नुहोस्	determine	determined	determined	determines	determining
+239	विकास[सम्पादन गर्ने]	develop	developed	developed	develops	developing
+240	मर्छन्	die	died	died	dies	dying
+241	फरक	differ	differed	differed	differs	differing
+242	खोदना	dig	dug	dug	digs	digging
+243	पचाउनुहोस्	digest	digested	digested	digests	digesting
+244	धमिलो	dim	dimmed	dimmed	dims	dimming
+245	कम गर्ने	diminish	diminished	diminished	diminishes	diminishing
+246	खाना खाने	dine	dined	dined	dines	dining
+247	डुबकी	dip	dipped	dipped	dips	dipping
+248	प्रत्यक्ष	direct	directed	directed	directs	directing
+249	गायब हो गया	disappear	disappeared	disappeared	disappears	disappearing
+250	पत्ता लगाउनुहोस्	discover	discovered	discovered	discovers	discovering
+251	छलफल गर्नुहोस्	discuss	discussed	discussed	discusses	discussing
+252	अवज्ञा गर्नुहोस्	disobey	disobeyed	disobeyed	disobeys	disobeying
+253	प्रदर्शन गर्नुहोस्	display	displayed	displayed	displays	displaying
+254	निपटान करें	dispose	disposed	disposed	disposes	disposing
+255	वितरण गर्नुहोस्	distribute	distributed	distributed	distributes	distributing
+256	डिस्टर्ब	disturb	disturbed	disturbed	disturbs	disturbing
+257	प्रयोग रद्द गर्नुहोस्	disuse	disused	disused	disuses	disusing
+258	गोता लगाउनुहोस्	dive	dived 	dived	dives	diving
+259	विभाजन गर्नुहोस्	divide	divided	divided	divides	dividing
+260	करो	do	did	done	does	doing
+261	दान गर्नुहोस्	donate	donated	donated	donates	donating
+262	डाउनलोड गर्नुहोस्	download	downloaded	downloaded	downloads	downloading
+263	तान्नुहोस्	drag	dragged	dragged	drags	dragging
+264	कोर्नुहोस्	draw	drew	drawn	draws	drawing
+265	सपना	dream	dreamt	dreamt	dreams	dreaming
+266	पहिरन	dress	dressed	dressed	dresses	dressing
+267	ड्रिल	drill	drilled	drilled	drills	drilling
+268	पिउने	drink	drank	drunk	drinks	drinking
+269	ड्राइभ	drive	drove	driven	drives	driving
+270	ड्रप	drop	dropped	dropped	drops	dropping
+271	सुख्खा	dry	dried	dried	dries	drying
+272	डम्प	dump	dumped	dumped	dumps	dumping
+273	बास गर्नुहोस्	dwell	dwelt	dwelt	dwells	dwelling
+274	रङ	dye	dyed	dyed	dyes	dyeing
+275	कमाउनुहोस	earn	earned	earned	earns	earning
+276	खाओ	eat	ate	eaten	eats	eating
+277	शिक्षित गर्नुहोस्	educate	educated	educated	educates	educating
+278	सशक्तिकरण[सम्पादन गर्ने]	empower	empowered	empowered	empowers	empowering
+279	खाली	empty	emptied	emptied	empties	emptying
+280	encircle	encircle	encircled	encircled	encircles	encircling
+281	प्रोत्साहन गर्नुहोस्	encourage	encouraged	encouraged	encourages	encouraging
+282	अतिक्रमण[सम्पादन गर्ने]	encroach	encroached	encroached	encroaches	encroaching
+283	खतरामा	endanger	endangered	endangered	endangers	entangling
+284	समर्थन गर्नुहोस्	endorse	endorsed	endorsed	endorses	endorsing
+285	सहनुहोस्	endure	endured	endured	endures	enduring
+286	engrave	engrave	engraved	engraved	engraves	engraving
+287	आनन्द लिनुहोस्	enjoy	enjoyed	enjoyed	enjoys	enjoying
+288	ठूलो बनाउने	enlarge	enlarged	enlarged	enlarges	enlarging
+289	enlighten	enlighten	enlightened	enlightened	enlightens	enlightening
+290	प्रविष्ट गर्नुहोस्	enter	entered	entered	enters	entering
+291	ईर्ष्या	envy	envied	envied	envies	envying
+292	मेट्नुहोस्	erase	erased	erased	erases	erasing
+293	भागो	escape	escaped	escaped	escapes	escaping
+294	वाष्पीकरण	evaporate	evaporated	evaporated	evaporates	evaporating
+295	साटासाट गर्नुहोस्	exchange	exchanged	exchanged	exchanges	exchanging
+296	उद्गार गर्दै	exclaim	exclaimed	exclaimed	exclaims	exclaiming
+297	बहिष्कृत गर्नुहोस्	exclude	excluded	excluded	excludes	excluding
+298	अवस्थित छ	exist	existed	existed	exists	existing
+299	विस्तार गर्नुहोस्	expand	expanded	expanded	expands	expanding
+300	अपेक्षा गर्नुहोस्	expect	expected	expected	expects	expecting
+301	समझाओ	explain	explained	explained	explains	explaining
+302	अन्वेषण गर्नुहोस्	explore	explored	explored	explores	exploring
+303	अभिव्यक्त गर्नुहोस्	express	expressed	expressed	expresses	expressing
+304	विस्तार गर्नुहोस्	extend	extended	extended	extends	extending
+305	आँखा	eye	eyed	eyed	eyes	eyeing
+306	अनुहार	face	faced	faced	faces	facing
+307	असफल भयो	fail	failed	failed	fails	failing
+308	बेहोश	faint	fainted	fainted	faints	fainting
+309	पतन[सम्पादन गर्ने]	fall	fell	fallen	falls	falling
+310	फ्यान	fan	fanned	fanned	fans	fanning
+311	fancy	fancy	fancied	fancied	fancies	fancying
+312	अनुग्रह[सम्पादन गर्ने]	favour	favoured	favoured	favours	favouring
+313	फ्याक्स	fax	faxed	faxed	faxes	faxing
+314	फिड	feed	fed	fed	feeds	feeding
+315	महसूस हो रहा है	feel	felt	felt	feels	feeling
+316	फेरी	ferry	ferried	ferried	ferries	ferrying
+317	fetch	fetch	fetched	fetched	fetches	fetching
+318	लड़ाई	fight	fought	fought	fights	fighting
+319	भर्नुहोस्	fill	filled	filled	fills	filling
+320	फेला पार्नुहोस्	find	found	found	finds	finding
+321	समाप्त गर्नुहोस्	finish	finished	finished	finishes	finishing
+322	माछा	fish	fished	fished	fishes	fishing
+323	फिट गर्नुहोस्	fit	fit/fitted	fit/fitted	fits	fitting
+324	फिक्स गर्नुहोस्	fix	fixed	fixed	fixes	fixing
+325	fizz	fizz	fizzed	fizzed	fizzes	fizzing
+326	फ्लैप	flap	flapped	flapped	flaps	flapping
+327	फ्ल्यास	flash	flashed	flashed	flashes	flashing
+328	भागो	flee	fled	fled	flees	fleeing
+329	फ्लिङ	fling	flung	flung	flings	flinging
+330	फ्लोट	float	floated	floated	floats	floating
+331	फ्लप	flop	flopped	flopped	flops	flopping
+332	उड़ान	fly	flew	flown	flies	flying
+333	फोल्ड	fold	folded	folded	folds	folding
+334	अनुसरण गर्नुहोस्	follow	followed	followed	follows	following
+335	निषेध गर्नुहोस्	forbid	forbade	forbidden	forbids	forbidding
+336	बल प्रयोग	force	forced	forced	forces	forcing
+337	पूर्वानुमान	forecast	forecast	forecast	forecasts	forecasting
+338	भविष्यवाणी गर्नुहोस्	foretell	foretold	foretold	foretells	foretelling
+339	बिर्सनुहोस्	forget	forgot	forgotten	forgets	forgetting
+340	क्षमा गर्नुहोस्	forgive	forgave	forgiven	forgives	forgiving
+341	forlese	forlese	forlore	forlorn	forlese	forlesing
+342	फारम	form	formed	formed	forms	forming
+343	forsake	forsake	forsook	forsaken	forsakes	forsaking
+344	फेला पर्यो	found	founded	founded	founds	founding
+345	फ्रेम	frame	framed	framed	frames	framing
+346	नि: शुल्क	free	freed	freed	frees	freeing
+347	फ्रीज	freeze	froze	frozen	freezes	freezing
+348	भयभीत	frighten	frightened	frightened	frightens	frightening
+349	फ्राई	fry	fried	fried	fries	frying
+350	पूरा करें	fulfil	fulfilled	fulfilled	fulfils	fulfilling
+351	गैग	gag	gagged	gagged	gags	gagging
+352	लाभ	gain	gained	gained	gains	gaining
+353	गेन्से	gainsay	gainsaid	gainsaid	gainsays	gainsaying
+354	गाश	gash	gashed	gashed	gashes	gashing
+355	टकटकी	gaze	gazed	gazed	gazes	gazing
+356	प्राप्त हो जाओ	get	got	got	gets	getting
+357	दे दो	give	gave	given	gives	giving
+358	एक नजर	glance	glanced	glanced	glances	glancing
+359	glitter	glitter	glittered	glittered	glitters	glittering
+360	चमक	glow	glowed	glowed	glows	glowing
+361	जाओ	go	went	gone	goes	going
+362	गुगल	google	googled	googled	googles	googling
+363	गवर्न	govern	governed	governed	governs	governing
+364	पकड़ो	grab	grabbed	grabbed	grabs	grabbing
+365	ग्रेड	grade	graded	graded	grades	grading
+366	अनुदान	grant	granted	granted	grants	granting
+367	नमस्कार	greet	greeted	greeted	greets	greeting
+368	पीसना	grind	ground	ground	grinds	grinding
+369	Grip	grip	gripped	gripped	grips	gripping
+370	बढ़ो	grow	grew	grown	grows	growing
+371	पहरेदार	guard	guarded	guarded	guards	guarding
+372	अनुमान लगाउनुहोस्	guess	guessed	guessed	guesses	guessing
+373	गाइड	guide	guided	guided	guides	guiding
+374	ह्यान्डल	handle	handled	handled	handles	handling
+375	ह्याङ्ग गर्नुहोस्	hang	hung	hung	hangs	hanging
+376	होता है	happen	happened	happened	happens	happening
+377	हानि	harm	harmed	harmed	harms	harming
+378	ह्याच	hatch	hatched	hatched	hatches	hatching
+379	घृणा गर्नुहोस्	hate	hated	hated	hates	hating
+380	छ	have	had	had	has	having
+381	निको पार्नुहोस्	heal	healed	healed	heals	healing
+382	सुनो	hear	heard	heard	hears	hearing
+383	heave	heave	hove	hove	heaves	heaving
+384	मद्दत गर्नुहोस्	help	helped	helped	helps	helping
+385	हेउ	hew	hewed	hewn	hews	hewing
+386	लुकाउनुहोस्	hide	hid	hidden	hides	hiding
+387	बाधा	hinder	hindered	hindered	hinders	hindering
+388	उसको	hiss	hissed	hissed	hisses	hissing
+389	हिट	hit	hit	hit	hits	hitting
+390	धोखा	hoax	hoaxed	hoaxed	hoaxes	hoaxing
+391	होल्ड गर्नुहोस्	hold	held	held	holds	holding
+392	हप	hop	hopped	hopped	hops	hopping
+393	आशा छ	hope	hoped	hoped	hopes	hoping
+394	होरिफी	horrify	horrified	horrified	horrifies	horrifying
+395	गले लगाओ	hug	hugged	hugged	hugs	hugging
+396	हुम	hum	hummed	hummed	hums	humming
+397	अपमानित गर्नुहोस्	humiliate	humiliated	humiliated	humiliates	humiliating
+398	शिकार	hunt	hunted	hunted	hunts	hunting
+399	फ्याँक्ने	hurl	hurled	hurled	hurls	hurling
+400	जल्दी करो	hurry	hurried	hurried	hurries	hurrying
+401	चोट पटक लागेको छ ।	hurt	hurt	hurt	hurts	hurting
+402	चुप रहो	hush	hushed	hushed	hushes	hushing
+403	हलचल[सम्पादन गर्ने]	hustle	hustled	hustled	hustles	hustling
+404	सम्मोहित गर्नुहोस्	hypnotize	hypnotized	hypnotized	hypnotizes	hypnotizing
+405	आदर्शीकरण गर्नुहोस्	idealize	idealized	idealized	idealizes	idealizing
+406	पहिचान गर्नुहोस्	identify	identified	identified	identifies	identifying
+407	मूर्तिपूजा गर्नुहोस्	idolize	idolized	idolized	idolizes	idolizing
+408	प्रज्वलित गर्नुहोस्	ignite	ignited	ignited	ignites	igniting
+409	उपेक्षा गर्नुहोस्	ignore	ignored	ignored	ignores	ignoring
+410	खराब व्यवहार[सम्पादन गर्ने]	ill-treat	ill-treated	ill-treated	ill-treats	ill-treating
+411	रोशनी	illuminate	illuminated	illuminated	illuminates	illuminating
+412	इलुमाइन	illumine	illumined	illumined	illumines	illumining
+413	वर्णन गर्नुहोस्	illustrate	illustrated	illustrated	illustrates	illustrating
+414	कल्पना गर्नुहोस्	imagine	imagined	imagined	imagines	imagining
+415	इम्बाइब	imbibe	imbibed	imbibed	imbibes	imbibing
+416	अनुकरण गर्नुहोस्	imitate	imitated	imitated	imitates	imitating
+417	डुबेर	immerse	immersed	immersed	immerses	immersing
+418	आत्मदाह करना	immolate	immolated	immolated	immolates	immolating
+419	immure	immure	immured	immured	immures	immuring
+420	बिग्रनुहोस्	impair	impaired	impaired	impairs	impairing
+421	प्रदान गर्नुहोस्	impart	imparted	imparted	imparts	imparting
+422	महाभियोग	impeach	impeached	impeached	impeaches	impeaching
+423	impede	impede	impeded	impeded	impedes	impeding
+424	impel	impel	impelled	impelled	impels	impelling
+425	इम्पेन्ड गर्नुहोस्	impend	impended	impended	impends	impending
+426	imperil	imperil	imperilled	imperilled	imperils	imperilling
+427	impinge	impinge	impinged	impinged	impinges	impinging
+428	प्रत्यारोपण	implant	implanted	implanted	implants	implanting
+429	फँसाउनुहोस्	implicate	implicated	implicated	implicates	implicating
+430	implode	implode	imploded	imploded	implodes	imploding
+431	implore	implore	implored	implored	implores	imploring
+432	संकेत गर्नुहोस्	imply	implied	implied	implies	implying
+433	आयात गर्नुहोस्	import	imported	imported	imports	importing
+434	लागू गर्नुहोस्	impose	imposed	imposed	imposes	imposing
+435	प्रभावित गर्नुहोस्	impress	impressed	impressed	impresses	impressing
+436	छाप	imprint	imprinted	imprinted	imprints	imprinting
+437	कैद गर्नुहोस्	imprison	imprisoned	imprisoned	imprisons	imprisoning
+438	सुधार गर्नुहोस्	improve	improved	improved	improves	improving
+439	उद्घाटन	inaugurate	inaugurated	inaugurated	inaugurates	inaugurating
+440	incise	incise	incised	incised	incises	incising
+441	समावेश गर्नुहोस्	include	included	included	includes	including
+442	वृद्धि[सम्पादन गर्ने]	increase	increased	increased	increases	increasing
+443	सिकाउनुहोस्	inculcate	inculcated	inculcated	inculcates	inculcating
+444	इन्डेन्ट	indent	indented	indented	indents	indenting
+445	सङ्केत गर्दछ	indicate	indicated	indicated	indicates	indicating
+446	प्रेरित गर्नुहोस्	induce	induced	induced	induces	inducing
+447	संलग्न हुनुहोस्	indulge	indulged	indulged	indulges	indulging
+448	संक्रमित गर्नु	infect	infected	infected	infects	infecting
+449	इन्फेक्सन	infest	infested	infested	infests	infesting
+450	inflame	inflame	inflamed	inflamed	inflames	inflaming
+451	फुलाउनुहोस्	inflate	inflated	inflated	inflates	inflating
+452	इन्फ्लेक्ट	inflect	inflected	inflected	inflects	inflecting
+453	सूचित गर्नुहोस्	inform	informed	informed	informs	informing
+454	उल्लङ्घन	infringe	infringed	infringed	infringes	infringing
+455	इन्फ्यूज	infuse	infused	infused	infuses	infusing
+456	इन्जेस्ट गर्नुहोस्	ingest	ingested	ingested	ingests	ingesting
+457	बसोवास गर्ने	inhabit	inhabited	inhabited	inhabits	inhabiting
+458	श्वास फेर्नुहोस्	inhale	inhaled	inhaled	inhales	inhaling
+459	उत्तराधिकार प्राप्त गर्नुहोस्	inherit	inherited	inherited	inherits	inheriting
+460	सुरु गर्नुहोस्	initiate	initiated	initiated	initiates	initiating
+461	इन्जेक्सन गर्नुहोस्	inject	injected	injected	injects	injecting
+462	घाइते	injure	injured	injured	injures	injuring
+463	इन्ले	inlay	inlaid	inlaid	inlays	inlaying
+464	innovate	innovate	innovated	innovated	innovates	innovating
+465	आगत	input	input	input	inputs	inputting
+466	सोधपुछ गर्नुहोस्	inquire	inquired	inquired	inquires	inquiring
+467	incrcrise	inscribe	inscribed	inscribed	inscribes	inscribing
+468	घुसाउनुहोस्	insert	inserted	inserted	inserts	inserting
+469	निरीक्षण गर्नुहोस्	inspect	inspected	inspected	inspects	inspecting
+470	प्रेरणा दिनुहोस्	inspire	inspired	inspired	inspires	inspiring
+471	स्थापना गर्नुहोस्	install	installed	installed	installs	installing
+472	अपमान	insult	insulted	insulted	insults	insulting
+473	बीमा	insure	insured	insured	insures	insuring
+474	एकीकृत गर्नुहोस्	integrate	integrated	integrated	integrates	integrating
+475	परिचय[सम्पादन गर्ने]	introduce	introduced	introduced	introduces	introducing
+476	आविष्कार[सम्पादन गर्ने]	invent	invented	invented	invents	inventing
+477	निमन्त्रणा	invite	invited	invited	invites	inviting
+478	सामेल हुनुहोस्	join	joined	joined	joins	joining
+479	जम्प गर्नुहोस्	jump	jumped	jumped	jumps	jumping
+480	न्यायोचित ठहराना	justify	justified	justified	justifies	justifying
+481	रखना	keep	kept	kept	keeps	keeping
+482	लात हान्ने	kick	kicked	kicked	kicks	kicking
+483	बच्चा	kid	kidded	kidded	kids	kidding
+484	मार डालो	kill	killed	killed	kills	killing
+485	चुम्बन	kiss	kissed	kissed	kisses	kissing
+486	घुँडा टेके	kneel	knelt	knelt	kneels	kneeling
+487	knit	knit	knit	knit	knits	knitting
+488	दस्तक	knock	knocked	knocked	knocks	knocking
+489	थाहा छ	know	knew	known	knows	knowing
+490	lade	lade	laded	laden	lades	lading
+491	भूमि	land	landed	landed	lands	landing
+492	अन्तिम	last	lasted	lasted	lasts	lasting
+493	ल्याच	latch	latched	latched	latches	latching
+494	हाँस्नुहोस्	laugh	laughed	laughed	laughs	laughing
+495	लेओ	lay	laid	laid	lays	laying
+496	लिड	lead	led	led	leads	leading
+497	चुहावट	leak	leaked	leaked	leaks	leaking
+498	दुब्ला	lean	leant	leant	leans	leaning
+499	फड्को मार्ने	leap	leapt	leapt	leaps	leaping
+500	सिक्नुहोस्	learn	learnt	learnt	learns	learning
+501	छोड़ दो	leave	left	left	leaves	leaving
+502	लेयर	leer	leered	leered	leers	leering
+503	ऋण दिनुहोस्	lend	lent	lent	lends	lending
+504	चलो	let	let	let	lets	letting
+505	चाटना	lick	licked	licked	licks	licking
+506	झूठ बोलो	lie	lay	lain	lies	lying
+507	झूठ बोलो	lie	lied	lied	lies	lying
+508	लिफ्ट	lift	lifted	lifted	lifts	lifting
+509	प्रकाश	light	lit	lit	lights	lighting
+510	जस्तै	like	liked	liked	likes	liking
+511	लंगडा	limp	limped	limped	limps	limping
+512	सुनो	listen	listened	listened	listens	listening
+513	जिउँदो छ	live	lived	lived	lives	living
+514	देखो	look	looked	looked	looks	looking
+515	हार	lose	lost	lost	loses	losing
+516	प्यार	love	loved	loved	loves	loving
+517	ठूलो पार्नुहोस्	magnify	magnified	magnified	magnifies	magnifying
+518	कायम राख्नुहोस्	maintain	maintained	maintained	maintains	maintaining
+519	बनाओ	make	made	made	makes	making
+520	व्यवस्थापन गर्नुहोस्	manage	managed	managed	manages	managing
+521	मार्च	march	marched	marched	marches	marching
+522	चिनो	mark	marked	marked	marks	marking
+523	विवाह[सम्पादन गर्ने]	marry	married	married	marries	marrying
+524	मैश	mash	mashed	mashed	mashes	mashing
+525	म्याच गर्नुहोस्	match	matched	matched	matches	matching
+526	मामला	matter	mattered	mattered	matters	mattering
+527	मतलब	mean	meant	meant	means	meaning
+528	मापन	measure	measured	measured	measures	measuring
+529	मिलते हैं	meet	met	met	meets	meeting
+530	पिघलने वाले	melt	melted	melted	melts	melting
+531	मर्ज गर्नुहोस्	merge	merged	merged	merges	merging
+532	mew	mew	mewed	mewed	mews	mewing
+533	Migrate	migrate	migrated	migrated	migrates	migrating
+534	दूध	milk	milked	milked	milks	milking
+535	मन	mind	minded	minded	minds	minding
+536	भ्रम में	mislead	misled	misled	misleads	misleading
+537	मिस	miss	missed	missed	misses	missing
+538	गल्ती	mistake	mistook	mistaken	mistakes	mistaking
+539	दुरुपयोग[सम्पादन गर्ने]	misuse	misused	misused	misuses	misusing
+540	मिश्रण गर्नुहोस्	mix	mixed	mixed	mixes	mixing
+541	विलाप	moan	moaned	moaned	moans	moaning
+542	परिमार्जन गर्नुहोस्	modify	modified	modified	modifies	modifying
+543	मू	moo	mooed	mooed	moos	mooing
+544	उत्प्रेरित गर्नुहोस्	motivate	motivated	motivated	motivates	motivating
+545	मोल्ड	mould	moulded	moulded	moulds	moulding
+546	moult	moult	moulted	moulted	moults	moulting
+547	चाल	move	moved	moved	moves	moving
+548	काओ	mow	mowed	mown	mows	mowing
+549	गुणा गर्नुहोस्	multiply	multiplied	multiplied	multiplies	multiplying
+550	गनगन	murmur	murmured	murmured	murmurs	murmuring
+551	नङ	nail	nailed	nailed	nails	nailing
+552	झपकी	nap	napped	napped	naps	napping
+553	आवश्यक छ	need	needed	needed	needs	needing
+554	उपेक्षा गर्नुहोस्	neglect	neglected	neglected	neglects	neglecting
+555	निप	nip	nipped	nipped	nips	nipping
+556	नोड	nod	nodded	nodded	nods	nodding
+557	नोट	note	noted	noted	notes	noting
+558	सूचना	notice	noticed	noticed	notices	noticing
+559	सूचित गर्नुहोस्	notify	notified	notified	notifies	notifying
+560	पोषण	nourish	nourished	nourished	nourishes	nourishing
+561	नर्स	nurse	nursed	nursed	nurses	nursing
+562	आज्ञा पालन गर्नुहोस्	obey	obeyed	obeyed	obeys	obeying
+563	oblige	oblige	obliged	obliged	obliges	obliging
+564	अवलोकन गर्नुहोस्	observe	observed	observed	observes	observing
+565	अवरोध गर्नुहोस्	obstruct	obstructed	obstructed	obstructs	obstructing
+566	प्राप्त करना	obtain	obtained	obtained	obtains	obtaining
+567	कब्जा गर्नुहोस्	occupy	occupied	occupied	occupies	occupying
+568	घटित हो	occur	occurred	occurred	occurs	occurring
+569	प्रस्ताव	offer	offered	offered	offers	offering
+570	अफसेट	offset	offset	offset	offsets	offsetting
+571	omit	omit	omitted	omitted	omits	omitting
+572	ooze	ooze	oozed	oozed	oozes	oozing
+573	खुला	open	opened	opened	opens	opening
+574	सञ्चालन गर्नुहोस्	operate	operated	operated	operates	operating
+575	opine	opine	opined	opined	opines	opining
+576	उत्पीड़न	oppress	oppressed	oppressed	oppresses	oppressing
+577	अप्ट गर्नुहोस्	opt	opted	opted	opts	opting
+578	अनुकूलन गर्नुहोस्	optimize	optimized	optimized	optimizes	optimizing
+579	आदेश	order	ordered	ordered	orders	ordering
+580	सङ्गठित गर्नुहोस्	organize	organized	organized	organizes	organizing
+581	उत्पन्न हुन्छ	originate	originated	originated	originates	originating
+582	निर्गत	output	output	output	outputs	outputting
+583	अतिप्रवाह	overflow	overflowed	overflowed	overflows	overflowing
+584	ओभरटेक	overtake	overtook	overtaken	overtakes	overtaking
+585	ऋणी	owe	owed	owed	owes	owing
+586	आफ्नै	own	owned	owned	owns	owning
+587	शान्त पार्नुहोस्	pacify	pacified	pacified	pacifies	pacifying
+588	पेन्ट	paint	painted	painted	paints	painting
+589	क्षमादान	pardon	pardoned	pardoned	pardons	pardoning
+590	भाग	part	parted	parted	parts	parting
+591	partake	partake	partook	partaken	partakes	partaking
+592	भाग लिनुहोस्	participate	participated	participated	participates	participating
+593	पास	pass	passed	passed	passes	passing
+594	टाँस्नुहोस्	paste	pasted	pasted	pastes	pasting
+595	प्याट	pat	patted	patted	pats	patting
+596	प्याच	patch	patched	patched	patches	patching
+597	रुक जाओ	pause	paused	paused	pauses	pausing
+598	वेतन	pay	paid	paid	pays	paying
+599	एक झलक	peep	peeped	peeped	peeps	peeping
+600	नाश हो जाए	perish	perished	perished	perishes	perishing
+601	अनुमति	permit	permitted	permitted	permits	permitting
+602	राजी करना	persuade	persuaded	persuaded	persuades	persuading
+603	फोन	phone	phoned	phoned	phones	phoning
+604	स्थान	place	placed	placed	places	placing
+605	योजना[सम्पादन गर्ने]	plan	planned	planned	plans	planning
+606	प्ले गर्नुहोस्	play	played	played	plays	playing
+607	बिन्ती गर्नुहोस्	plead	pled	pled	pleads	pleading
+608	कृपया	please	pleased	pleased	pleases	pleasing
+609	प्लोड	plod	plodded	plodded	plods	plodding
+610	कथानक	plot	plotted	plotted	plots	plotting
+611	प्लक	pluck	plucked	plucked	plucks	plucking
+612	प्लाई	ply	plied	plied	plies	plying
+613	बिन्दु	point	pointed	pointed	points	pointing
+614	पोलिस	polish	polished	polished	polishes	polishing
+615	प्रदूषित करना	pollute	polluted	polluted	pollutes	polluting
+616	विचार गर्नुहोस्	ponder	pondered	pondered	ponders	pondering
+617	pour	pour	poured	poured	pours	pouring
+618	पाउट	pout	pouted	pouted	pouts	pouting
+619	अभ्यास गर्नुहोस्	practise	practised	practised	practises	practising
+620	स्तुति[सम्पादन गर्ने]	praise	praised	praised	praises	praising
+621	प्रार्थना गर्नुहोस्	pray	prayed	prayed	prays	praying
+622	प्रचार गर्नुहोस्	preach	preached	preached	preaches	preaching
+623	प्राथमिकता	prefer	preferred	preferred	prefers	preferring
+624	तयारी गर्नुहोस्	prepare	prepared	prepared	prepares	preparing
+625	prescribe	prescribe	prescribed	prescribed	prescribes	prescribing
+626	हाल	present	presented	presented	presents	presenting
+627	संरक्षण गर्नुहोस्	preserve	preserved	preserved	preserves	preserving
+628	preset	preset	preset	preset	presets	presetting
+629	अध्यक्षता गर्ने	preside	presided	presided	presides	presiding
+630	प्रेस गर्नुहोस्	press	pressed	pressed	presses	pressing
+631	नाटक गर्नुहोस्	pretend	pretended	pretended	pretends	pretending
+632	रोक्नुहोस्	prevent	prevented	prevented	prevents	preventing
+633	मुद्रण गर्नुहोस्	print	printed	printed	prints	printing
+634	अघि बढ्नुहोस्	proceed	proceeded	proceeded	proceeds	proceeding
+635	उत्पादन गर्नुहोस्	produce	produced	produced	produces	producing
+636	प्रगति[सम्पादन गर्ने]	progress	progressed	progressed	progresses	progressing
+637	निषेध ित गर्नुहोस्	prohibit	prohibited	prohibited	prohibits	prohibiting
+638	प्रतिज्ञा	promise	promised	promised	promises	promising
+639	प्रस्ताव गर्नुहोस्	propose	proposed	proposed	proposes	proposing
+640	अभियोजन गर्नुहोस्	prosecute	prosecuted	prosecuted	prosecutes	prosecuting
+641	रक्षा गर्नुहोस्	protect	protected	protected	protects	protecting
+642	साबित करना	prove	proved	proved	proves	proving
+643	प्रदान गर्नुहोस्	provide	provided	provided	provides	providing
+644	पुल	pull	pulled	pulled	pulls	pulling
+645	दण्ड दिनुहोस्	punish	punished	punished	punishes	punishing
+646	शुद्ध पार्नुहोस्	purify	purified	purified	purifies	purifying
+647	पुश	push	pushed	pushed	pushes	pushing
+648	पुट	put	put	put	puts	putting
+649	योग्य	qualify	qualified	qualified	qualifies	qualifying
+650	झगडा	quarrel	quarrelled	quarrelled	quarrels	quarrelling
+651	प्रश्न	question	questioned	questioned	questions	questioning
+652	बन्द गर्नुहोस्	quit	quit	quit	quits	quitting
+653	दौड	race	raced	raced	races	racing
+654	वर्षा	rain	rained	rained	rains	raining
+655	rattle	rattle	rattled	rattled	rattles	rattling
+656	पहुँच	reach	reached	reached	reaches	reaching
+657	पढ्नुहोस्	read	read	read	reads	reading
+658	महसुस गर्नुहोस्	realize	realized	realized	realizes	realizing
+659	पुन: निर्माण गर्नुहोस्	rebuild	rebuilt	rebuilt	rebuilds	rebuilding
+660	याद गर्नुहोस्	recall	recalled	recalled	recalls	recalling
+661	पुन: कास्ट गर्नुहोस्	recast	recast	recast	recasts	recasting
+662	प्राप्त गर्नुहोस्	receive	received	received	receives	receiving
+663	सुनाउनुहोस्	recite	recited	recited	recites	reciting
+664	पहिचान गर्नुहोस्	recognize	recognized	recognized	recognizes	recognizing
+665	सम्झना गर्नुहोस्	recollect	recollected	recollected	recollects	recollecting
+666	पुनरावृत्ति	recur	recurred	recurred	recurs	recurring
+667	redo	redo	redid	redone	redoes	redoing
+668	कम गर्नुहोस्	reduce	reduced	reduced	reduces	reducing
+669	संदर्भित करें	refer	referred	referred	refers	referring
+670	प्रतिबिम्बित गर्नुहोस्	reflect	reflected	reflected	reflects	reflecting
+671	अस्वीकार गर्नुहोस्	refuse	refused	refused	refuses	refusing
+672	सम्बन्धमा[सम्पादन गर्ने]	regard	regarded	regarded	regards	regarding
+673	पछतावा	regret	regretted	regretted	regrets	regretting
+674	सम्बन्धित गर्नुहोस्	relate	related	related	relates	relating
+675	आराम गर्नुहोस्	relax	relaxed	relaxed	relaxes	relaxing
+676	भरोसा गर्नुहोस्	rely	relied	relied	relies	relying
+677	रहिरहनुहोस्	remain	remained	remained	remains	remaining
+678	रिमेक	remake	remade	remade	remakes	remaking
+679	हटाउनुहोस्	remove	removed	removed	removes	removing
+680	रेन्ड	rend	rent	rent	rends	rending
+681	नवीकरण गर्नुहोस्	renew	renewed	renewed	renews	renewing
+682	त्याग गर्नुहोस्	renounce	renounced	renounced	renounces	renouncing
+683	मरम्मत	repair	repaired	repaired	repairs	repairing
+684	दोहोर्याउनुहोस्	repeat	repeated	repeated	repeats	repeating
+685	प्रतिस्थापन गर्नुहोस्	replace	replaced	replaced	replaces	replacing
+686	जवाफ दिनुहोस्	reply	replied	replied	replies	replying
+687	रिपोर्ट	report	reported	reported	reports	reporting
+688	अनुरोध	request	requested	requested	requests	requesting
+689	पुन: बिक्री	resell	resold	resold	resells	reselling
+690	मिल्दोजुल्दो	resemble	resembled	resembled	resembles	resembling
+691	रिसेट गर्नुहोस्	reset	reset	reset	resets	resetting
+692	विरोध गर्नुहोस्	resist	resisted	resisted	resists	resisting
+693	समाधान[सम्पादन गर्ने]	resolve	resolved	resolved	resolves	resolving
+694	सम्मान[सम्पादन गर्ने]	respect	respected	respected	respects	respecting
+695	आराम गर्नुहोस्	rest	rested	rested	rests	resting
+696	संयमित गर्नुहोस्	restrain	restrained	restrained	restrains	restraining
+697	रिटेन गर्नुहोस्	retain	retained	retained	retains	retaining
+698	रेच	retch	retched	retched	retches	retching
+699	सेवानिवृत्त हुनुहोस्	retire	retired	retired	retires	retiring
+700	फर्कनुहोस्	return	returned	returned	returns	returning
+701	पुन: प्रयोग गर्नुहोस्	reuse	reused	reused	reuses	reusing
+702	समीक्षा[सम्पादन गर्ने]	review	reviewed	reviewed	reviews	reviewing
+703	रिवाइन्ड गर्नुहोस्	rewind	rewound	rewound	rewinds	rewinding
+704	छुटकारा	rid	rid	rid	rids	ridding
+705	सवारी	ride	rode	ridden	rides	riding
+706	रिंग	ring	rang	rung	rings	ringing
+707	उदय[सम्पादन गर्ने]	rise	rose	risen	rises	rising
+708	गर्जना	roar	roared	roared	roars	roaring
+709	लुटे	rob	robbed	robbed	robs	robbing
+710	रोल	roll	rolled	rolled	rolls	rolling
+711	रोट	rot	rotted	rotted	rots	rotting
+712	रगड़ना	rub	rubbed	rubbed	rubs	rubbing
+713	नियम	rule	ruled	ruled	rules	ruling
+714	रन	run	ran	run	runs	running
+715	हतारो	rush	rushed	rushed	rushes	rushing
+716	तोड़फोड़	sabotage	sabotaged	sabotaged	sabotages	sabotaging
+717	बोरा	sack	sacked	sacked	sacks	sacking
+718	बलिदान	sacrifice	sacrificed	sacrificed	sacrifices	sacrificing
+719	दु:खी	sadden	saddened	saddened	saddens	saddening
+720	काठी	saddle	saddled	saddled	saddles	saddling
+721	साग	sag	sagged	sagged	sags	sagging
+722	पाल	sail	sailed	sailed	sails	sailing
+723	सैली	sally	sallied	sallied	sallies	sallying
+724	सलाम	salute	saluted	saluted	salutes	saluting
+725	उद्धार	salvage	salvaged	salvaged	salvages	salvaging
+726	साल्वे	salve	salved	salved	salves	salving
+727	नमूना	sample	sampled	sampled	samples	sampling
+728	पवित्र पार्नुहोस्	sanctify	sanctified	sanctified	sanctifies	sanctifying
+729	स्वीकृति[सम्पादन गर्ने]	sanction	sanctioned	sanctioned	sanctions	sanctioning
+730	sap	sap	sapped	sapped	saps	sapping
+731	saponify	saponify	saponified	saponified	saponifies	saponifying
+732	sash	sash	sashed	sashed	sashes	sashing
+733	सशाय	sashay	sashayed	sashayed	sashays	sashaying
+734	sass	sass	sassed	sassed	sasses	sassing
+735	सट	sate	sated	sated	sates	sating
+736	तृप्ति	satiate	satiated	satiated	satiates	satiating
+737	व्यंग्य	satirise	satirised	satirised	satirises	satirising
+738	सन्तुष्ट पार्नुहोस्	satisfy	satisfied	satisfied	satisfies	satisfying
+739	संतृप्त गर्नुहोस्	saturate	saturated	saturated	saturates	saturating
+740	saunter	saunter	sauntered	sauntered	saunters	sauntering
+741	बचत गर्नुहोस्	save	saved	saved	saves	saving
+742	स्वाद लिनुहोस्	savor	savored	savored	savors	savoring
+743	समझदार सावे	savvy	savvied	savvied	savvies	savvying
+744	देखी	saw	sawed	sawn	saws	sawing
+745	कहो	say	said	said	says	saying
+746	खटिरा	scab	scabbed	scabbed	scabs	scabbing
+747	खुजली	scabble	scabbled	scabbled	scabbles	scabbling
+748	scald	scald	scalded	scalded	scalds	scalding
+749	स्केल	scale	scaled	scaled	scales	scaling
+750	घोटाला	scam	scammed	scammed	scams	scamming
+751	स्क्यान गर्नुहोस्	scan	scanned	scanned	scans	scanning
+752	थोरै मात्र	scant	scanted	scanted	scants	scanting
+753	दाग	scar	scarred	scarred	scars	scarring
+754	डराउने	scare	scared	scared	scares	scaring
+755	स्कारिफाई गर्नुहोस्	scarify	scarified	scarified	scarifies	scarifying
+756	स्कार्प	scarp	scarped	scarped	scarps	scarping
+757	स्क्याट	scat	scatted	scatted	scats	scatting
+758	स्क्याटर	scatter	scattered	scattered	scatters	scattering
+759	डांटना	scold	scolded	scolded	scolds	scolding
+760	scorch	scorch	scorched	scorched	scorches	scorching
+761	स्कोल	scowl	scowled	scowled	scowls	scowling
+762	स्क्रोल	scrawl	scrawled	scrawled	scrawls	scrawling
+763	चीख-पुकार	scream	screamed	screamed	screams	screaming
+764	पेंच	screw	screwed	screwed	screws	screwing
+765	स्क्रब	scrub	scrubbed	scrubbed	scrubs	scrubbing
+766	खोजी गर्नुहोस्	search	searched	searched	searches	searching
+767	सिट	seat	seated	seated	seats	seating
+768	सुरक्षित	secure	secured	secured	secures	securing
+769	देखो	see	saw	seen	sees	seeing
+770	खोजी गर्नुहोस्	seek	sought	sought	seeks	seeking
+771	जस्तो देखिन्छ	seem	seemed	seemed	seems	seeming
+772	जबकि पकड़ो	seize	seized	seized	seizes	seizing
+773	चयन गर्नुहोस्	select	selected	selected	selects	selecting
+774	बेचना	sell	sold	sold	sells	selling
+775	पठाउनुहोस्	send	sent	sent	sends	sending
+776	वाक्य	sentence	sentenced	sentenced	sentences	sentencing
+777	अलग-अलग	separate	separated	separated	separates	separating
+778	सेट गर्नुहोस्	set	set	set	sets	setting
+779	sever	sever	severed	severed	severs	severing
+780	सिलाई	sew	sewed	sewn	sews	sewing
+781	शेक	shake	shook	shaken	shakes	shaking
+782	आकार	shape	shaped	shaped	shapes	shaping
+783	शेयर गर्नुहोस्	share	shared	shared	shares	sharing
+784	चकनाचूर करना	shatter	shattered	shattered	shatters	shattering
+785	दाढ़ी	shave	shove	shaven	shaves	shaving
+786	कतरनी	shear	shore	shorn	shears	shearing
+787	शेड	shed	shed	shed	sheds	shedding
+788	चमक	shine	shone	shone	shines	shining
+789	शिर्क	shirk	shirked	shirked	shirks	shirking
+790	बकवास	shit	shit	shit	shits	shitting
+791	थरथर काँप्दै	shiver	shivered	shivered	shivers	shivering
+792	झट्का	shock	shocked	shocked	shocks	shocking
+793	जुत्ता	shoe	shod	shod	shoes	shoeing
+794	गोली मारो	shoot	shot	shot	shoots	shooting
+795	छोटो पार्नुहोस्	shorten	shortened	shortened	shortens	shortening
+796	चिल्लाओ	shout	shouted	shouted	shouts	shouting
+797	देखाउनुहोस्	show	showed	shown	shows	showing
+798	खुम्च्याउनुहोस्	shrink	shrank	shrunk	shrinks	shrinking
+799	शुन	shun	shunned	shunned	shuns	shunning
+800	बन्द गर्नुहोस्	shut	shut	shut	shuts	shutting
+801	दृष्टि[सम्पादन गर्ने]	sight	sighted	sighted	sights	sighting
+802	सङ्केत	signal	signalled	signalled	signals	signalling
+803	सङ्केत गर्नुहोस्	signify	signified	signified	signifies	signifying
+804	गाउनुहोस्	sing	sang	sung	sings	singing
+805	सिंक	sink	sank	sunk	sinks	sinking
+806	एक चुस्की	sip	sipped	sipped	sips	sipping
+807	बैठो	sit	sat	sat	sits	sitting
+808	स्की	ski	skied	skied	skis	skiing
+809	skid	skid	skidded	skidded	skids	skidding
+810	स्ल्याम	slam	slammed	slammed	slams	slamming
+811	हत्या गर	slay	slew	slain	slays	slaying
+812	सुत्नुहोस्	sleep	slept	slept	sleeps	sleeping
+813	स्लाइड	slide	slid	slid/slide	slides	sliding
+814	स्लिम	slim	slimmed	slimmed	slims	slimming
+815	स्लिंग	sling	slung	slung	slings	slinging
+816	slink	slink	slunk	slunk	slinks	slinking
+817	पर्ची	slip	slipped	slipped	slips	slipping
+818	चिरा	slit	slit	slit	slits	slitting
+819	स्मैश	smash	smashed	smashed	smashes	smashing
+820	गन्ध	smell	smelt	smelt	smells	smelling
+821	मुस्कुराओ	smile	smiled	smiled	smiles	smiling
+822	स्माइट	smite	smote	smitten	smites	smiting
+823	चिल्लो	smooth	smoothed	smoothed	smoothes	smoothing
+824	स्मॉथर	smother	smothered	smothered	smothers	smothering
+825	स्न्याप गर्नुहोस्	snap	snapped	snapped	snaps	snapping
+826	स्न्याच	snatch	snatched	snatched	snatches	snatching
+827	लुकीछिपी	sneak	sneaked	sneaked	sneaks	sneaking
+828	हाँच्छ्यु	sneeze	sneezed	sneezed	sneezes	sneezing
+829	सुँघ्ने	sniff	sniffed	sniffed	sniffs	sniffing
+830	soar	soar	soared	soared	soars	soaring
+831	सोब	sob	sobbed	sobbed	sobs	sobbing
+832	बिन्ती गर्नुहोस्	solicit	solicited	solicited	solicits	soliciting
+833	हल करना	solve	solved	solved	solves	solving
+834	शान्त पार्नुहोस्	soothe	soothed	soothed	soothes	soothing
+835	क्रमबद्ध गर्नुहोस्	sort	sorted	sorted	sorts	sorting
+836	बीऊ	sow	sowed	sowed	sows	sowing
+837	sparkle	sparkle	sparkled	sparkled	sparkles	sparkling
+838	बोलो	speak	spoke	spoken	speaks	speaking
+839	गति[सम्पादन गर्ने]	speed	sped	sped	speeds	speeding
+840	हिज्जे	spell	spelt	spelt	spells	spelling
+841	खर्च गर्नुहोस्	spend	spent	spent	spends	spending
+842	स्पिल	spill	spilt	spilt	spills	spilling
+843	स्पिन गर्नुहोस्	spin	span/spun	spun	spins	spinning
+844	थूकना	spit	spat/spit	spat/spit	spits	spitting
+845	विभाजन गर्नुहोस्	split	split	split	splits	splitting
+846	खराब करना	spoil	spoilt	spoilt	spoils	spoiling
+847	स्प्रे	spray	sprayed	sprayed	sprays	spraying
+848	फैलिनु	spread	spread	spread	spreads	spreading
+849	वसन्त	spring	sprang	sprung	springs	springing
+850	अंकुरित हुनुहोस्	sprout	sprouted	sprouted	sprouts	sprouting
+851	निचोड़ना	squeeze	squeezed	squeezed	squeezes	squeezing
+852	स्टैंड	stand	stood	stood	stands	standing
+853	घूरना	stare	stared	stared	stares	staring
+854	सुरु आत गर्नुहोस्	start	started	started	starts	starting
+855	राज्य	state	stated	stated	states	stating
+856	 	 	 	 	 	 
+857	रुको	stay	stayed	stayed	stays	staying
+858	चोरी करना	steal	stole	stolen	steals	stealing
+859	ठाडो	steep	steeped	steeped	steeps	steeping
+860	stem	stem	stemmed	stemmed	stems	stemming
+861	चरण	step	stepped	stepped	steps	stepping
+862	निर्जलीकरण गर्नुहोस्	sterilize	sterilized	sterilized	sterilizes	sterilizing
+863	छडी	stick	stuck	stuck	sticks	sticking
+864	उत्तेजित गर्नुहोस्	stimulate	stimulated	stimulated	stimulates	stimulating
+865	डंक	sting	stung	stung	stings	stinging
+866	स्टिंक	stink	stank	stunk	stinks	stinking
+867	हलचल	stir	stirred	stirred	stirs	stirring
+868	सिलाई	stitch	stitched	stitched	stitches	stitching
+869	स्टूप	stoop	stooped	stooped	stoops	stooping
+870	रुको	stop	stopped	stopped	stops	stopping
+871	भण्डार	store	stored	stored	stores	storing
+872	तनाव[सम्पादन गर्ने]	strain	strained	strained	strains	straining
+873	आवारा	stray	strayed	strayed	strays	straying
+874	तनाव	stress	stressed	stressed	stresses	stressing
+875	स्ट्रेच	stretch	stretched	stretched	stretches	stretching
+876	स्ट्रेउ	strew	strewed	strewn	strews	strewing
+877	स्ट्राइड	stride	strode	stridden	strides	striding
+878	हडताल	strike	struck	struck/stricken	strikes	striking
+879	string	string	strung	strung	strings	stringing
+880	प्रयास गर्नुहोस्	strive	strove	striven	strives	striving
+881	अध्ययन[सम्पादन गर्ने]	study	studied	studied	studies	studying
+882	पेश गर्नुहोस्	submit	submitted	submitted	submits	submitting
+883	सदस्यता लिनुहोस्	subscribe	subscribed	subscribed	subscribes	subscribing
+884	घटाउनुहोस्	subtract	subtracted	subtracted	subtracts	subtracting
+885	सफल	succeed	succeeded	succeeded	succeeds	succeeding
+886	चूसना	suck	sucked	sucked	sucks	sucking
+887	कष्ट भोग्नुपर्छ	suffer	suffered	suffered	suffers	suffering
+888	सुझाव दिनुहोस्	suggest	suggested	suggested	suggests	suggesting
+889	समन	summon	summoned	summoned	summons	summoning
+890	आपूर्ति[सम्पादन गर्ने]	supply	supplied	supplied	supplies	supplying
+891	समर्थन[सम्पादन गर्ने]	support	supported	supported	supports	supporting
+892	मान लीजिए	suppose	supposed	supposed	supposes	supposing
+893	वृद्धि[सम्पादन गर्ने]	surge	surged	surged	surges	surging
+894	surmise	surmise	surmised	surmised	surmises	surmising
+895	पार गर्नुहोस्	surpass	surpassed	surpassed	surpasses	surpassing
+896	वरिपरि	surround	surrounded	surrounded	surrounds	surrounding
+897	सर्वेक्षण	survey	surveyed	surveyed	surveys	surveying
+898	बाँच्न सफल	survive	survived	survived	survives	surviving
+899	निल्ने	swallow	swallowed	swallowed	swallows	swallowing
+900	स्व-स्वे	sway	swayed	swayed	sways	swaying
+901	कसम खाएर	swear	swore	sworn	swears	swearing
+902	पसिना	sweat	sweat	sweat	sweats	sweating
+903	स्वीप गर्नुहोस्	sweep	swept	swept	sweeps	sweeping
+904	फूले हुए	swell	swelled	swollen	swells	swelling
+905	तैरना	swim	swam	swum	swims	swimming
+906	स्विङ	swing	swung	swung	swings	swinging
+907	स्वोट	swot	swotted	swotted	swots	swotting
+908	ले लो	take	took	taken	takes	taking
+909	बात करो	talk	talked	talked	talks	talking
+910	ट्याप गर्नुहोस्	tap	tapped	tapped	taps	tapping
+911	स्वादिलो	taste	tasted	tasted	tastes	tasting
+912	कर	tax	taxed	taxed	taxes	taxing
+913	सिकाउनुहोस्	teach	taught	taught	teaches	teaching
+914	आँसु	tear	tore	torn	tears	tearing
+915	टी.टी.	tee	teed	teed	tees	teeing
+916	बताओ	tell	told	told	tells	telling
+917	प्रलोभन	tempt	tempted	tempted	tempts	tempting
+918	प्रवृति	tend	tended	tended	tends	tending
+919	अन्त्य गर्नुहोस्	terminate	terminated	terminated	terminates	terminating
+920	टेरिफी	terrify	terrified	terrified	terrifies	terrifying
+921	परीक्षण	test	tested	tested	tests	testing
+922	धन्यवाद	thank	thanked	thanked	thanks	thanking
+923	सोचो	think	thought	thought	thinks	thinking
+924	उन्नति गर्नुहोस्	thrive	throve	thriven	thrives	thriving
+925	थ्रो	throw	threw	thrown	throws	throwing
+926	थ्रस्ट	thrust	thrust	thrust	thrusts	thrusting
+927	थप्पड हान्ने	thump	thumped	thumped	thumps	thumping
+928	टाई	tie	tied	tied	ties	tying
+929	टायर	tire	tired	tired	tires	tiring
+930	टस	toss	tossed	tossed	tosses	tossing
+931	छुनु	touch	touched	touched	touches	touching
+932	ट्रेन	train	trained	trained	trains	training
+933	कुल्ला गर्नुहोस्	trample	trampled	trampled	tramples	trampling
+934	स्थानान्तरण	transfer	transferred	transferred	transfers	transferring
+935	रूपान्तरण गर्नुहोस्	transform	transformed	transformed	transforms	transforming
+936	अनुवाद गर्नुहोस्	translate	translated	translated	translates	translating
+937	पासो	trap	trapped	trapped	traps	trapping
+938	यात्रा[सम्पादन गर्ने]	travel	travelled	travelled	travels	travelling
+939	ट्रेड	tread	trod	trodden	treads	treading
+940	खजाना	treasure	treasured	treasured	treasures	treasuring
+941	उपचार गर्नुहोस्	treat	treated	treated	treats	treating
+942	रुख	tree	treed	treed	trees	treeing
+943	थरथर काँप्ने	tremble	trembled	trembled	trembles	trembling
+944	विजय[सम्पादन गर्ने]	triumph	triumphed	triumphed	triumphs	triumphing
+945	विश्वास गर्नुहोस्	trust	trusted	trusted	trusts	trusting
+946	प्रयास गर्नुहोस्	try	tried	tried	tries	trying
+947	घुमाउनुहोस्	turn	turned	turned	turns	turning
+948	प्रकार	type	typed	typed	types	typing
+949	typeset	typeset	typeset	typeset	typesets	typesetting
+950	समझो	understand	understood	understood	understands	understanding
+951	पूर्ववत् गर्नुहोस्	undo	undid	undone	undoes	undoing
+952	उखाड़ फे	uproot	uprooted	uprooted	uproots	uprooting
+953	परेशान	upset	upset	upset	upsets	upsetting
+954	आग्रह	urge	urged	urged	urges	urging
+955	प्रयोग गर्नुहोस्	use	used	used	uses	using
+956	उच्चारण गर्नुहोस्	utter	uttered	uttered	utters	uttering
+957	मान	value	valued	valued	values	valuing
+958	गायब हो गया	vanish	vanished	vanished	vanishes	vanishing
+959	फरक-फरक	vary	varied	varied	varies	varying
+960	पुष्टि गर्नुहोस्	verify	verified	verified	verifies	verifying
+961	वेक्स	vex	vexed	vexed	vexes	vexing
+962	vie	vie	vied	vied	vies	vying
+963	दृश्य	view	viewed	viewed	views	viewing
+964	उल्लङ्घन गर्ने	violate	violated	violated	violates	violating
+965	उल्टी गर्नुहोस्	vomit	vomited	vomited	vomits	vomiting
+966	जागो	wake	woke	woken	wakes	waking
+967	हिँड्नुहोस्	walk	walked	walked	walks	walking
+968	घुमन्ते	wander	wandered	wandered	wanders	wandering
+969	चाहनुहुन्छ	want	wanted	wanted	wants	wanting
+970	चेतावनी दिनुहोस्	warn	warned	warned	warns	warning
+971	फोहर	waste	wasted	wasted	wastes	wasting
+972	देखो	watch	watched	watched	watches	watching
+973	पानी[सम्पादन गर्ने]	water	watered	watered	waters	watering
+974	तरंग	wave	waved	waved	waves	waving
+975	मोम	wax	waxed	waxed	waxes	waxing
+976	वेले	waylay	waylaid	waylaid	waylays	waylaying
+977	पहनना	wear	wore	worn	wears	wearing
+978	बुनाई	weave	wove	woven	weaves	weaving
+979	हामी	wed	wed	wed	weds	wedding
+980	रोना	weep	wept	wept	weeps	weeping
+981	तौल[सम्पादन गर्ने]	weigh	weighed	weighed	weighs	weighing
+982	स्वागत छ	welcome	welcomed	welcomed	welcomes	welcoming
+983	वेन्ड	wend	went	went	wends	wending
+984	भिजेको	wet	wet	wet	wets	wetting
+985	चाबुक	whip	whipped	whipped	whips	whipping
+986	फुसफुसाहट	whisper	whispered	whispered	whispers	whispering
+987	जीत[सम्पादन गर्ने]	win	won	won	wins	winning
+988	हावा	wind	wound	wound	winds	winding
+989	इच्छा	wish	wished	wished	wishes	wishing
+990	फिर्ता लिनुहोस्	withdraw	withdrew	withdrawn	withdraws	withdrawing
+991	काम[सम्पादन गर्ने]	work	worked	worked	works	working
+992	चिन्ता	worry	worried	worried	worries	worrying
+993	पूजा[सम्पादन गर्ने]	worship	worshipped	worshipped	worships	worshipping
+994	रिङ	wring	wrung	wrung	wrings	wringing
+995	लेख्नुहोस्	write	wrote	written	writes	writing
+996	जम्हाई	yawn	yawned	yawned	yawns	yawning
+997	चिल्लाओ	yell	yelled	yelled	yells	yelling
+998	उत्पादन[सम्पादन गर्ने]	yield	yielded	yielded	yields	yielding
+999	जस्ता	zinc	zincked	zincked	zincs	zincking
+1000 जुम	zoom	zoomed	zoomed	zooms	zooming
+1001 गयो go went gone goes going
+1002 खेल्यो played played played played played
+1003 पढ्छे read read read reads reading
+1004 खेलिरहेका playing playing playing playing playing

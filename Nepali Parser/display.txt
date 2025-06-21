@@ -1,0 +1,297 @@
+
+
+
+
+
+sentence:  भाइ  बजार  गयो  |
+ POS Tags: { भाइ ,NN } { बजार ,NN } { गयो ,VF } { | ,PUNC }
+Chunks:  ( भाइ )  ( बजार )
+ DREL:({ भाइ NN})_Karta(K1) ({ बजार NN})_Location(K2p)  { गयो ,VF } {| ,PUNC }
+
+
+
+
+
+
+
+sentence:  दिदी  बजार  गयो  |
+ POS Tags: { दिदी ,NN } { बजार ,NN } { गयो ,VF } { | ,PUNC }
+Chunks:  ( दिदी )  ( बजार )
+ DREL:({ दिदी NN})_Karta(K1) ({ बजार NN})_Location(K2p)  { गयो ,VF } {| ,PUNC }
+
+
+
+
+
+
+
+sentence:  मेरो  स्वास्थ्य  बिग्रेको  छौ  ।
+ POS Tags: { मेरो ,PRP } { स्वास्थ्य ,NN } { बिग्रेको ,VAUX } { छौ ,VAUX } { । ,PUNC }
+Chunks:  ( मेरो स्वास्थ्य )
+ DREL:({ मेरो PRP}{ स्वास्थ्य NN})_Karta(K1)  { बिग्रेको ,VAUX } { छौ ,VAUX } {। ,PUNC }
+
+
+
+
+
+
+
+
+sentence:  भाइ  बजार  गयो  |
+ POS Tags: { भाइ ,NN } { बजार ,NN } { गयो ,VF } { | ,PUNC }
+Chunks:  ( भाइ )  ( बजार )
+ DREL:({ भाइ NN})_Karta(K1) ({ बजार NN})_Location(K2p)  { गयो ,VF } {| ,PUNC }
+
+
+
+
+
+
+
+sentence:  दिदी  बजार  गयो  |
+ POS Tags: { दिदी ,NN } { बजार ,NN } { गयो ,VF } { | ,PUNC }
+Chunks:  ( दिदी )  ( बजार )
+ DREL:({ दिदी NN})_Karta(K1) ({ बजार NN})_Location(K2p)  { गयो ,VF } {| ,PUNC }
+
+
+
+
+
+
+
+sentence:  मेरो  स्वास्थ्य  बिग्रेको  छौ  ।
+ POS Tags: { मेरो ,PRP } { स्वास्थ्य ,NN } { बिग्रेको ,VAUX } { छौ ,VAUX } { । ,PUNC }
+Chunks:  ( मेरो स्वास्थ्य )
+ DREL:({ मेरो PRP}{ स्वास्थ्य NN})_Karta(K1)  { बिग्रेको ,VAUX } { छौ ,VAUX } {। ,PUNC }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sentence:  भाइ  बजार  गयो  |
+ POS Tags: { भाइ ,NN } { बजार ,NN } { गयो ,VF } { | ,PUNC }
+Chunks:  ( भाइ )  ( बजार )
+ DREL:({ भाइ NN})_Karta(K1) ({ बजार NN})_Location(K2p)  { गयो ,VF } {| ,PUNC }
+
+
+
+
+
+
+
+sentence:  दिदी  बजार  गयो  |
+ POS Tags: { दिदी ,NN } { बजार ,NN } { गयो ,VF } { | ,PUNC }
+Chunks:  ( दिदी )  ( बजार )
+ DREL:({ दिदी NN})_Karta(K1) ({ बजार NN})_Location(K2p)  { गयो ,VF } {| ,PUNC }
+
+
+
+
+
+
+
+sentence:  मेरो  स्वास्थ्य  बिग्रेको  छौ  ।
+ POS Tags: { मेरो ,PRP } { स्वास्थ्य ,NN } { बिग्रेको ,VAUX } { छौ ,VAUX } { । ,PUNC }
+Chunks:  ( मेरो स्वास्थ्य )
+ DREL:({ मेरो PRP}{ स्वास्थ्य NN})_Karta(K1)  { बिग्रेको ,VAUX } { छौ ,VAUX } {। ,PUNC }
+
+
+
+
+
+
+
+
+sentence:  मेरो  स्वास्थ्य  बिग्रेको  छौ  ।
+ POS Tags: { मेरो ,PRP } { स्वास्थ्य ,NN } { बिग्रेको ,VAUX } { छौ ,VAUX } { । ,PUNC }
+Chunks:  ( मेरो स्वास्थ्य )
+ DREL:({ मेरो PRP}{ स्वास्थ्य NN})_Karta(K1)  { बिग्रेको ,VAUX } { छौ ,VAUX } {। ,PUNC }
+
+
+
+
+
+
+
+
+sentence:  मेरो  PRP  स्वास्थ्य  NN  बिग्रेको  VAUX  छौ
+ POS Tags: { मेरो ,NN } { PRP ,QW } { स्वास्थ्य ,NN } { NN ,VF } { बिग्रेको ,NN } { VAUX ,QW } { छौ ,PUNC } ,PUNC }
+Chunks:  ( मेरो )  ( PRP )  ( स्वास्थ्य )
+ DREL:({ मेरो NN})_Karta(K1) ({ PRP QW})_Karma(K2) ({ स्वास्थ्य NN})_Sampradan(K4)  { NN ,VF } { बिग्रेको ,NN } { VAUX ,QW } {छौ ,PUNC } ,PUNC } { VAUX ,QW } { । {NNP ,PUNC }
+
+
+
+
+
+
+
+sentence:  मेरो  PRP  स्वास्थ्य  NN  बिग्रेको  VAUX  छौ
+ POS Tags: { मेरो ,NN } { PRP ,QW } { स्वास्थ्य ,NN } { NN ,VF } { बिग्रेको ,NN } { VAUX ,QW } { छौ ,PUNC } ,PUNC }
+Chunks:  ( मेरो )  ( PRP )  ( स्वास्थ्य )
+ DREL:({ मेरो NN})_Karta(K1) ({ PRP QW})_Karma(K2) ({ स्वास्थ्य NN})_Sampradan(K4)  { NN ,VF } { बिग्रेको ,NN } { VAUX ,QW } {छौ ,PUNC } ,PUNC } { VAUX ,QW } { । {NNP ,PUNC }
+
+
+
+
+
+
+
+sentence:  मेरो  PRP  स्वास्थ्य  NN  बिग्रेको  VAUX  छौ
+ POS Tags: { मेरो ,NN } { PRP ,QW } { स्वास्थ्य ,NN } { NN ,VF } { बिग्रेको ,NN } { VAUX ,QW } { छौ ,PUNC } ,PUNC }
+Chunks:  ( मेरो )  ( PRP )  ( स्वास्थ्य )
+ DREL:({ मेरो NN})_Karta(K1) ({ PRP QW})_Karma(K2) ({ स्वास्थ्य NN})_Sampradan(K4)  { NN ,VF } { बिग्रेको ,NN } { VAUX ,QW } {छौ ,PUNC } ,PUNC } { VAUX ,QW } { । {NNP ,PUNC }
+
+
+
+
+
+
+
+sentence:  मेरो  PRP  स्वास्थ्य  NN  बिग्रेको  VAUX  छौ
+ POS Tags: { मेरो ,NN } { PRP ,QW } { स्वास्थ्य ,NN } { NN ,VF } { बिग्रेको ,NN } { VAUX ,QW } { छौ ,PUNC } ,PUNC }
+Chunks:  ( मेरो )  ( PRP )  ( स्वास्थ्य )
+ DREL:({ मेरो NN})_Karta(K1) ({ PRP QW})_Karma(K2) ({ स्वास्थ्य NN})_Sampradan(K4)  { NN ,VF } { बिग्रेको ,NN } { VAUX ,QW } {छौ ,PUNC } ,PUNC } { VAUX ,QW } { । {NNP ,PUNC }
+
+
+
+
+
+
+
+sentence:  मेरो  PRP  स्वास्थ्य  NN  बिग्रेको  VAUX  छौ
+ POS Tags: { मेरो ,NN } { PRP ,QW } { स्वास्थ्य ,NN } { NN ,VF } { बिग्रेको ,NN } { VAUX ,QW } { छौ ,PUNC } ,PUNC }
+Chunks:  ( मेरो )  ( PRP )  ( स्वास्थ्य )
+ DREL:({ मेरो NN})_Karta(K1) ({ PRP QW})_Karma(K2) ({ स्वास्थ्य NN})_Sampradan(K4)  { NN ,VF } { बिग्रेको ,NN } { VAUX ,QW } {छौ ,PUNC } ,PUNC } { VAUX ,QW } { । {NNP ,PUNC }
+
+
+
+
+
+
+
+sentence:  मेरो  स्वास्थ्य  बिग्रेको  छौ  ।
+ POS Tags: { मेरो ,PRP } { स्वास्थ्य ,NN } { बिग्रेको ,VAUX } { छौ ,VAUX } { । ,PUNC }
+Chunks:  ( मेरो स्वास्थ्य )
+ DREL:({ मेरो PRP}{ स्वास्थ्य NN})_Karta(K1)  { बिग्रेको ,VAUX } { छौ ,VAUX } {। ,PUNC }
+
+
+
+
+
+
+
+
+sentence:  मेरो  स्वास्थ्य  बिग्रेको  छौ  ।
+ POS Tags: { मेरो ,PRP } { स्वास्थ्य ,NN } { बिग्रेको ,VAUX } { छौ ,VAUX } { । ,PUNC }
+Chunks:  ( मेरो स्वास्थ्य )
+ DREL:({ मेरो PRP}{ स्वास्थ्य NN})_Karta(K1)  { बिग्रेको ,VAUX } { छौ ,VAUX } {। ,PUNC }
+
+
+
+
+
+
+
+
+sentence:  मेरो  स्वास्थ्य  बिग्रेको  छौ  ।
+ POS Tags: { मेरो ,PRP } { स्वास्थ्य ,NN } { बिग्रेको ,VAUX } { छौ ,VAUX } { । ,PUNC }
+Chunks:  ( मेरो स्वास्थ्य )
+ DREL:({ मेरो PRP}{ स्वास्थ्य NN})_Karta(K1)  { बिग्रेको ,VAUX } { छौ ,VAUX } {। ,PUNC }
+
+
+
+
+
+
+
+
+sentence:  मेरो  स्वास्थ्य  बिग्रेको  छौ  ।
+ POS Tags: { मेरो ,PRP } { स्वास्थ्य ,NN } { बिग्रेको ,VAUX } { छौ ,VAUX } { । ,PUNC }
+Chunks:  ( मेरो स्वास्थ्य )
+ DREL:({ मेरो PRP}{ स्वास्थ्य NN})_Karta(K1)  { बिग्रेको ,VAUX } { छौ ,VAUX } {। ,PUNC }
+
+
+
+
+
+
+
+
+sentence:  मेरो  स्वास्थ्य  बिग्रेको  छौ  ।
+ POS Tags: { मेरो ,PRP } { स्वास्थ्य ,NN } { बिग्रेको ,VAUX } { छौ ,VAUX } { । ,PUNC }
+Chunks:  ( मेरो स्वास्थ्य )
+ DREL:({ मेरो PRP}{ स्वास्थ्य NN})_Karta(K1)  { बिग्रेको ,VAUX } { छौ ,VAUX } {। ,PUNC }
+
+
+
+
+
+
+
+
+sentence:  मेरो  स्वास्थ्य  बिग्रेको  छौ  ।
+ POS Tags: { मेरो ,PRP } { स्वास्थ्य ,NN } { बिग्रेको ,VAUX } { छौ ,VAUX } { । ,PUNC }
+Chunks:  ( मेरो स्वास्थ्य )
+ DREL:({ मेरो PRP}{ स्वास्थ्य NN})_Karta(K1)  { बिग्रेको ,VAUX } { छौ ,VAUX } {। ,PUNC }
+
+
+
+
+
+
+
+
+sentence:  मेरो  स्वास्थ्य  बिग्रेको  छौ  ।
+ POS Tags: { मेरो ,PRP } { स्वास्थ्य ,NN } { बिग्रेको ,VAUX } { छौ ,VAUX } { । ,PUNC }
+Chunks:  ( मेरो स्वास्थ्य )
+ DREL:({ मेरो PRP}{ स्वास्थ्य NN})_Karta(K1)  { बिग्रेको ,VAUX } { छौ ,VAUX } {। ,PUNC }
+
+
+
+
+
+
+
+
+sentence:  मेरो  स्वास्थ्य  बिग्रेको  छौ  ।
+ POS Tags: { मेरो ,PRP } { स्वास्थ्य ,NN } { बिग्रेको ,VAUX } { छौ ,VAUX } { । ,PUNC }
+Chunks:  ( मेरो स्वास्थ्य )
+ DREL:({ मेरो PRP}{ स्वास्थ्य NN})_Karta(K1)  { बिग्रेको ,VAUX } { छौ ,VAUX } {। ,PUNC }
+
+
+
+
+
+
+
+
+sentence:  मेरो  स्वास्थ्य  बिग्रेको  छौ  ।
+ POS Tags: { मेरो ,PRP } { स्वास्थ्य ,NN } { बिग्रेको ,VAUX } { छौ ,VAUX } { । ,PUNC }
+Chunks:  ( मेरो स्वास्थ्य )
+ DREL:({ मेरो PRP}{ स्वास्थ्य NN})_Karta(K1)  { बिग्रेको ,VAUX } { छौ ,VAUX } {। ,PUNC }
+
+
+
