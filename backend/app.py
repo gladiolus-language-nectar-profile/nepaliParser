@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 # Config paths
 UPLOAD_FOLDER = 'uploads'
 OUTPUT_FOLDER = 'outputs'
-JAVA_PROJECT_PATH = os.path.abspath('../Nepali Parser')
+JAVA_PROJECT_PATH = os.path.join(os.path.dirname(__file__), '../Nepali Parser')
 
 # Create folders
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
