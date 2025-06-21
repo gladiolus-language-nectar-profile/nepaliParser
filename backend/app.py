@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 # Config
 UPLOAD_FOLDER = 'uploads'
 OUTPUT_FOLDER = 'outputs'
-JAVA_PROJECT_PATH = os.path.abspath('../Nepali Parser')  # Ensure it's absolute
+JAVA_PROJECT_PATH = os.path.join(os.path.dirname(__file__), '../Nepali Parser')  # Ensure it's absolute
 SCRIPT_FILENAME = 'process_single.sh'
 
 # Ensure folders exist
