@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: nepali-text-parser-backend
+    runtime: docker
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 5000
