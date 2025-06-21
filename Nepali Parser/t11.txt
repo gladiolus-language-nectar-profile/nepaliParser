@@ -1,0 +1,1691 @@
+nowords=10218
+beforeWS = 1 flag = 0  counter =0  obsnowords1=0
+sws[0]=ab  sws[1]=null
+flag=0  flag1 = 0   flag2 =0  flag4=0  obsnowords1=0  alaram = 0
+beforeWS = ???? flag = 0  counter =0  obsnowords1=1
+sws[0]=ab  sws[1]=null
+flag=0  flag1 = 0   flag2 =0  flag4=0  obsnowords1=1  alaram = 0
+beforeWS = ????????? flag = 0  counter =0  obsnowords1=2
+sws[0]=ab  sws[1]=null
+flag=0  flag1 = 0   flag2 =0  flag4=0  obsnowords1=2  alaram = 0
+beforeWS = ???????? flag = 0  counter =0  obsnowords1=3
+sws[0]=ab  sws[1]=null
+spvb[0]=????????
+flag=0  flag1 = 0   flag2 =2  flag4=0  obsnowords1=4  alaram = 0
+beforeWS = ?? flag = 0  counter =0  obsnowords1=4
+sws[0]=ab  sws[1]=null
+flag=0  flag1 = 0   flag2 =0  flag4=0  obsnowords1=4  alaram = 0
+beforeWS = ? flag = 0  counter =0  obsnowords1=5
+sws[0]=ab  sws[1]=null
+flag=0  flag1 = 0   flag2 =0  flag4=0  obsnowords1=5  alaram = 0
+oritestSent[0]=null
+oritestSent[1]=null
+oritestSent[2]=null
+oritestSent[3]=null
+oritestSent[4]=null
+oritestSent[5]=null
+IP=5049   inNeurons = 39   outNeurons= 39
+no of test patterns = 6 testtag.len=39
+file length = 300000
+**Find Me = 1no of Tags=10218   testwdindex=0
+file[10108]=1
+positions[0]=QTC Index = 10109
+ frq=1  index=10108
+hi
+ rare frequency  words = 0   rarefreqpos[0]=0    index = 10108
+ rare frequency  words = 0   rarefreqpos[0]=0    index = 10108
+file length = 300000
+**Find Me = ????no of Tags=10218   testwdindex=1
+file[8306]=????
+positions[0]=PRL Index = 8307
+file[8350]=????
+positions[1]=PRL Index = 8351
+file[8402]=????
+positions[2]=PRL Index = 8403
+file[8416]=????
+positions[3]=PRL Index = 8417
+file[8494]=????
+positions[4]=PRL Index = 8495
+file[8506]=????
+positions[5]=PRL Index = 8507
+file[8590]=????
+positions[6]=PRL Index = 8591
+file[8676]=????
+positions[7]=PRL Index = 8677
+file[8776]=????
+positions[8]=PRL Index = 8777
+file[9474]=????
+positions[9]=PRP Index = 9475
+file[9530]=????
+positions[10]=PRP Index = 9531
+file[9580]=????
+positions[11]=PRP Index = 9581
+ frq=12  index=9580
+freqpos[1]=PRP
+file length = 300000
+**Find Me = ?????????no of Tags=10218   testwdindex=2
+ frq=0  index=0
+No match found.?????????
+ 123 positions[0]=nll
+Unknown positions :2
+file length = 300000
+**Find Me = ????????no of Tags=10218   testwdindex=3
+ frq=0  index=0
+No match found.????????
+ 123 positions[0]=nll
+Unknown positions :3
+file length = 300000
+**Find Me = ??no of Tags=10218   testwdindex=4
+file[9458]=??
+positions[0]=VAUX Index = 9459
+file[9966]=??
+positions[1]=VAUX Index = 9967
+file[10026]=??
+positions[2]=VAUX Index = 10027
+file[10048]=??
+positions[3]=VAUX Index = 10049
+ frq=4  index=10048
+freqpos[4]=VAUX
+file length = 300000
+**Find Me = ?no of Tags=10218   testwdindex=5
+file[30]=?
+positions[0]=PUNC Index = 31
+file[56]=?
+positions[1]=PUNC Index = 57
+file[106]=?
+positions[2]=PUNC Index = 107
+file[192]=?
+positions[3]=PUNC Index = 193
+file[268]=?
+positions[4]=PUNC Index = 269
+file[320]=?
+positions[5]=PUNC Index = 321
+file[392]=?
+positions[6]=PUNC Index = 393
+file[418]=?
+positions[7]=PUNC Index = 419
+file[456]=?
+positions[8]=PUNC Index = 457
+file[472]=?
+positions[9]=PUNC Index = 473
+file[528]=?
+positions[10]=PUNC Index = 529
+file[594]=?
+positions[11]=PUNC Index = 595
+file[640]=?
+positions[12]=PUNC Index = 641
+file[714]=?
+positions[13]=PUNC Index = 715
+file[756]=?
+positions[14]=PUNC Index = 757
+file[802]=?
+positions[15]=PUNC Index = 803
+file[846]=?
+positions[16]=PUNC Index = 847
+file[894]=?
+positions[17]=PUNC Index = 895
+file[942]=?
+positions[18]=PUNC Index = 943
+file[1026]=?
+positions[19]=PUNC Index = 1027
+file[1064]=?
+positions[20]=PUNC Index = 1065
+file[1168]=?
+positions[21]=PUNC Index = 1169
+file[1262]=?
+positions[22]=PUNC Index = 1263
+file[1302]=?
+positions[23]=PUNC Index = 1303
+file[1338]=?
+positions[24]=PUNC Index = 1339
+file[1368]=?
+positions[25]=PUNC Index = 1369
+file[1414]=?
+positions[26]=PUNC Index = 1415
+file[1440]=?
+positions[27]=PUNC Index = 1441
+file[1524]=?
+positions[28]=PUNC Index = 1525
+file[1578]=?
+positions[29]=PUNC Index = 1579
+file[1642]=?
+positions[30]=PUNC Index = 1643
+file[1676]=?
+positions[31]=PUNC Index = 1677
+file[1696]=?
+positions[32]=PUNC Index = 1697
+file[1742]=?
+positions[33]=PUNC Index = 1743
+file[1814]=?
+positions[34]=PUNC Index = 1815
+file[1850]=?
+positions[35]=PUNC Index = 1851
+file[1904]=?
+positions[36]=PUNC Index = 1905
+file[1970]=?
+positions[37]=PUNC Index = 1971
+file[2018]=?
+positions[38]=PUNC Index = 2019
+file[2110]=?
+positions[39]=PUNC Index = 2111
+file[2172]=?
+positions[40]=PUNC Index = 2173
+file[2222]=?
+positions[41]=PUNC Index = 2223
+file[2256]=?
+positions[42]=PUNC Index = 2257
+file[2294]=?
+positions[43]=PUNC Index = 2295
+file[2352]=?
+positions[44]=PUNC Index = 2353
+file[2384]=?
+positions[45]=PUNC Index = 2385
+file[2436]=?
+positions[46]=PUNC Index = 2437
+file[2502]=?
+positions[47]=PUNC Index = 2503
+file[2538]=?
+positions[48]=PUNC Index = 2539
+file[2594]=?
+positions[49]=PUNC Index = 2595
+file[2636]=?
+positions[50]=PUNC Index = 2637
+file[2670]=?
+positions[51]=PUNC Index = 2671
+file[2706]=?
+positions[52]=PUNC Index = 2707
+file[2768]=?
+positions[53]=PUNC Index = 2769
+file[2812]=?
+positions[54]=PUNC Index = 2813
+file[2868]=?
+positions[55]=PUNC Index = 2869
+file[2896]=?
+positions[56]=PUNC Index = 2897
+file[2924]=?
+positions[57]=PUNC Index = 2925
+file[2960]=?
+positions[58]=PUNC Index = 2961
+file[3004]=?
+positions[59]=PUNC Index = 3005
+file[3048]=?
+positions[60]=PUNC Index = 3049
+file[3084]=?
+positions[61]=PUNC Index = 3085
+file[3124]=?
+positions[62]=PUNC Index = 3125
+file[3176]=?
+positions[63]=PUNC Index = 3177
+file[3222]=?
+positions[64]=PUNC Index = 3223
+file[3278]=?
+positions[65]=PUNC Index = 3279
+file[3316]=?
+positions[66]=PUNC Index = 3317
+file[3350]=?
+positions[67]=PUNC Index = 3351
+file[3376]=?
+positions[68]=PUNC Index = 3377
+file[3452]=?
+positions[69]=PUNC Index = 3453
+file[3460]=?
+positions[70]=PUNC Index = 3461
+file[3502]=?
+positions[71]=PUNC Index = 3503
+file[3554]=?
+positions[72]=PUNC Index = 3555
+file[3628]=?
+positions[73]=PUNC Index = 3629
+file[3688]=?
+positions[74]=PUNC Index = 3689
+file[3738]=?
+positions[75]=PUNC Index = 3739
+file[3754]=?
+positions[76]=PUNC Index = 3755
+file[3810]=?
+positions[77]=PUNC Index = 3811
+file[3844]=?
+positions[78]=PUNC Index = 3845
+file[3876]=?
+positions[79]=PUNC Index = 3877
+file[3934]=?
+positions[80]=PUNC Index = 3935
+file[3974]=?
+positions[81]=PUNC Index = 3975
+file[4026]=?
+positions[82]=PUNC Index = 4027
+file[4062]=?
+positions[83]=PUNC Index = 4063
+file[4088]=?
+positions[84]=PUNC Index = 4089
+file[4172]=?
+positions[85]=PUNC Index = 4173
+file[4218]=?
+positions[86]=PUNC Index = 4219
+file[4272]=?
+positions[87]=PUNC Index = 4273
+file[4306]=?
+positions[88]=PUNC Index = 4307
+file[4358]=?
+positions[89]=PUNC Index = 4359
+file[4422]=?
+positions[90]=PUNC Index = 4423
+file[4502]=?
+positions[91]=PUNC Index = 4503
+file[4552]=?
+positions[92]=PUNC Index = 4553
+file[4584]=?
+positions[93]=PUNC Index = 4585
+file[4624]=?
+positions[94]=PUNC Index = 4625
+file[4674]=?
+positions[95]=PUNC Index = 4675
+file[4692]=?
+positions[96]=PUNC Index = 4693
+file[4760]=?
+positions[97]=PUNC Index = 4761
+file[4812]=?
+positions[98]=PUNC Index = 4813
+file[4918]=?
+positions[99]=PUNC Index = 4919
+file[4958]=?
+positions[100]=PUNC Index = 4959
+file[4986]=?
+positions[101]=PUNC Index = 4987
+file[5080]=?
+positions[102]=PUNC Index = 5081
+file[5108]=?
+positions[103]=PUNC Index = 5109
+file[5152]=?
+positions[104]=PUNC Index = 5153
+file[5234]=?
+positions[105]=PUNC Index = 5235
+file[5326]=?
+positions[106]=PUNC Index = 5327
+file[5396]=?
+positions[107]=PUNC Index = 5397
+file[5460]=?
+positions[108]=PUNC Index = 5461
+file[5496]=?
+positions[109]=PUNC Index = 5497
+file[5538]=?
+positions[110]=PUNC Index = 5539
+file[5580]=?
+positions[111]=PUNC Index = 5581
+file[5606]=?
+positions[112]=PUNC Index = 5607
+file[5674]=?
+positions[113]=PUNC Index = 5675
+file[5762]=?
+positions[114]=PUNC Index = 5763
+file[5860]=?
+positions[115]=PUNC Index = 5861
+file[5894]=?
+positions[116]=PUNC Index = 5895
+file[5934]=?
+positions[117]=PUNC Index = 5935
+file[6038]=?
+positions[118]=PUNC Index = 6039
+file[6094]=?
+positions[119]=PUNC Index = 6095
+file[6118]=?
+positions[120]=PUNC Index = 6119
+file[6150]=?
+positions[121]=PUNC Index = 6151
+file[6216]=?
+positions[122]=PUNC Index = 6217
+file[6284]=?
+positions[123]=PUNC Index = 6285
+file[6342]=?
+positions[124]=PUNC Index = 6343
+file[6436]=?
+positions[125]=PUNC Index = 6437
+file[6462]=?
+positions[126]=PUNC Index = 6463
+file[6522]=?
+positions[127]=PUNC Index = 6523
+file[6628]=?
+positions[128]=PUNC Index = 6629
+file[6672]=?
+positions[129]=PUNC Index = 6673
+file[6764]=?
+positions[130]=PUNC Index = 6765
+file[6820]=?
+positions[131]=PUNC Index = 6821
+file[6892]=?
+positions[132]=PUNC Index = 6893
+file[6968]=?
+positions[133]=PUNC Index = 6969
+file[7056]=?
+positions[134]=PUNC Index = 7057
+file[7124]=?
+positions[135]=PUNC Index = 7125
+file[7166]=?
+positions[136]=PUNC Index = 7167
+file[7218]=?
+positions[137]=PUNC Index = 7219
+file[7264]=?
+positions[138]=PUNC Index = 7265
+file[7308]=?
+positions[139]=PUNC Index = 7309
+file[7342]=?
+positions[140]=PUNC Index = 7343
+file[7402]=?
+positions[141]=PUNC Index = 7403
+file[7440]=?
+positions[142]=PUNC Index = 7441
+file[7476]=?
+positions[143]=PUNC Index = 7477
+file[7532]=?
+positions[144]=PUNC Index = 7533
+file[7574]=?
+positions[145]=PUNC Index = 7575
+file[7620]=?
+positions[146]=PUNC Index = 7621
+file[7668]=?
+positions[147]=PUNC Index = 7669
+file[7738]=?
+positions[148]=PUNC Index = 7739
+file[7824]=?
+positions[149]=PUNC Index = 7825
+file[7866]=?
+positions[150]=PUNC Index = 7867
+file[7908]=?
+positions[151]=PUNC Index = 7909
+file[7992]=?
+positions[152]=PUNC Index = 7993
+file[8074]=?
+positions[153]=PUNC Index = 8075
+file[8126]=?
+positions[154]=PUNC Index = 8127
+file[8196]=?
+positions[155]=PUNC Index = 8197
+file[8266]=?
+positions[156]=PUNC Index = 8267
+file[8304]=?
+positions[157]=PUNC Index = 8305
+file[8320]=?
+positions[158]=PUNC Index = 8321
+file[8328]=?
+positions[159]=PUNC Index = 8329
+file[8338]=?
+positions[160]=PUNC Index = 8339
+file[8348]=?
+positions[161]=PUNC Index = 8349
+file[8384]=?
+positions[162]=PUNC Index = 8385
+file[8560]=?
+positions[163]=PUNC Index = 8561
+file[8574]=?
+positions[164]=PUNC Index = 8575
+file[8588]=?
+positions[165]=PUNC Index = 8589
+file[8602]=?
+positions[166]=PUNC Index = 8603
+file[8620]=?
+positions[167]=PUNC Index = 8621
+file[8826]=?
+positions[168]=PUNC Index = 8827
+file[8834]=?
+positions[169]=PUNC Index = 8835
+file[8840]=?
+positions[170]=PUNC Index = 8841
+file[8850]=?
+positions[171]=PUNC Index = 8851
+file[8866]=?
+positions[172]=PUNC Index = 8867
+file[8876]=?
+positions[173]=PUNC Index = 8877
+file[8884]=?
+positions[174]=PUNC Index = 8885
+file[8892]=?
+positions[175]=PUNC Index = 8893
+file[8904]=?
+positions[176]=PUNC Index = 8905
+file[8910]=?
+positions[177]=PUNC Index = 8911
+file[8920]=?
+positions[178]=PUNC Index = 8921
+file[8930]=?
+positions[179]=PUNC Index = 8931
+file[8936]=?
+positions[180]=PUNC Index = 8937
+file[8948]=?
+positions[181]=PUNC Index = 8949
+file[8960]=?
+positions[182]=PUNC Index = 8961
+file[8968]=?
+positions[183]=PUNC Index = 8969
+file[8978]=?
+positions[184]=PUNC Index = 8979
+file[8984]=?
+positions[185]=PUNC Index = 8985
+file[8996]=?
+positions[186]=PUNC Index = 8997
+file[9006]=?
+positions[187]=PUNC Index = 9007
+file[9012]=?
+positions[188]=PUNC Index = 9013
+file[9018]=?
+positions[189]=PUNC Index = 9019
+file[9024]=?
+positions[190]=PUNC Index = 9025
+file[9032]=?
+positions[191]=PUNC Index = 9033
+file[9040]=?
+positions[192]=PUNC Index = 9041
+file[9048]=?
+positions[193]=PUNC Index = 9049
+file[9058]=?
+positions[194]=PUNC Index = 9059
+file[9066]=?
+positions[195]=PUNC Index = 9067
+file[9078]=?
+positions[196]=PUNC Index = 9079
+file[9086]=?
+positions[197]=PUNC Index = 9087
+file[9096]=?
+positions[198]=PUNC Index = 9097
+file[9106]=?
+positions[199]=PUNC Index = 9107
+file[9114]=?
+positions[200]=PUNC Index = 9115
+file[9124]=?
+positions[201]=PUNC Index = 9125
+file[9134]=?
+positions[202]=PUNC Index = 9135
+file[9144]=?
+positions[203]=PUNC Index = 9145
+file[9156]=?
+positions[204]=PUNC Index = 9157
+file[9166]=?
+positions[205]=PUNC Index = 9167
+file[9174]=?
+positions[206]=PUNC Index = 9175
+file[9184]=?
+positions[207]=PUNC Index = 9185
+file[9194]=?
+positions[208]=PUNC Index = 9195
+file[9202]=?
+positions[209]=PUNC Index = 9203
+file[9210]=?
+positions[210]=PUNC Index = 9211
+file[9222]=?
+positions[211]=PUNC Index = 9223
+file[9230]=?
+positions[212]=PUNC Index = 9231
+file[9238]=?
+positions[213]=PUNC Index = 9239
+file[9246]=?
+positions[214]=PUNC Index = 9247
+file[9254]=?
+positions[215]=PUNC Index = 9255
+file[9260]=?
+positions[216]=PUNC Index = 9261
+file[9266]=?
+positions[217]=PUNC Index = 9267
+file[9274]=?
+positions[218]=PUNC Index = 9275
+file[9282]=?
+positions[219]=PUNC Index = 9283
+file[9288]=?
+positions[220]=PUNC Index = 9289
+file[9296]=?
+positions[221]=PUNC Index = 9297
+file[9304]=?
+positions[222]=PUNC Index = 9305
+file[9312]=?
+positions[223]=PUNC Index = 9313
+file[9318]=?
+positions[224]=PUNC Index = 9319
+file[9326]=?
+positions[225]=PUNC Index = 9327
+file[9334]=?
+positions[226]=PUNC Index = 9335
+file[9342]=?
+positions[227]=JJ Index = 9343
+file[9352]=?
+positions[228]=PUNC Index = 9353
+file[9360]=?
+positions[229]=PUNC Index = 9361
+file[9372]=?
+positions[230]=PUNC Index = 9373
+file[9380]=?
+positions[231]=PUNC Index = 9381
+file[9390]=?
+positions[232]=PUNC Index = 9391
+file[9398]=?
+positions[233]=PUNC Index = 9399
+file[9408]=?
+positions[234]=PUNC Index = 9409
+file[9416]=?
+positions[235]=PUNC Index = 9417
+file[9426]=?
+positions[236]=PUNC Index = 9427
+file[9434]=?
+positions[237]=PUNC Index = 9435
+file[9444]=?
+positions[238]=PUNC Index = 9445
+file[9450]=?
+positions[239]=PUNC Index = 9451
+file[9484]=?
+positions[240]=PUNC Index = 9485
+file[9494]=?
+positions[241]=PUNC Index = 9495
+file[9508]=?
+positions[242]=PUNC Index = 9509
+file[9540]=?
+positions[243]=PUNC Index = 9541
+file[9548]=?
+positions[244]=PUNC Index = 9549
+file[9558]=?
+positions[245]=PUNC Index = 9559
+file[9566]=?
+positions[246]=PUNC Index = 9567
+ frq=247  index=9566
+freqpos[5]=PUNC
+rareFreqpos[0]=0
+rareFreqpos[1]=0
+rareFreqpos[2]=0
+rareFreqpos[3]=0
+rareFreqpos[4]=0
+rareFreqpos[5]=0
+rareFreqpos[6]=0
+rareFreqpos[7]=0
+rareFreqpos[8]=0
+rareFreqpos[9]=0
+rareFreqpos[10]=0
+rareFreqpos[11]=0
+rareFreqpos[12]=0
+rareFreqpos[13]=0
+rareFreqpos[14]=0
+rareFreqpos[15]=0
+rareFreqpos[16]=0
+rareFreqpos[17]=0
+rareFreqpos[18]=0
+rareFreqpos[19]=0
+rareFreqpos[20]=0
+rareFreqpos[21]=0
+rareFreqpos[22]=0
+rareFreqpos[23]=0
+rareFreqpos[24]=0
+rareFreqpos[25]=0
+rareFreqpos[26]=0
+rareFreqpos[27]=0
+rareFreqpos[28]=0
+rareFreqpos[29]=0
+rareFreqpos[30]=0
+rareFreqpos[31]=0
+rareFreqpos[32]=0
+rareFreqpos[33]=0
+rareFreqpos[34]=0
+rareFreqpos[35]=0
+rareFreqpos[36]=0
+rareFreqpos[37]=0
+rareFreqpos[38]=0
+rareFreqpos[39]=0
+rareFreqpos[40]=0
+rareFreqpos[41]=0
+rareFreqpos[42]=0
+rareFreqpos[43]=0
+rareFreqpos[44]=0
+rareFreqpos[45]=0
+rareFreqpos[46]=0
+rareFreqpos[47]=0
+rareFreqpos[48]=0
+rareFreqpos[49]=0
+rareFreqpos[50]=0
+rareFreqpos[51]=0
+rareFreqpos[52]=0
+rareFreqpos[53]=0
+rareFreqpos[54]=0
+rareFreqpos[55]=0
+rareFreqpos[56]=0
+rareFreqpos[57]=0
+rareFreqpos[58]=0
+rareFreqpos[59]=0
+rareFreqpos[60]=0
+rareFreqpos[61]=0
+rareFreqpos[62]=0
+rareFreqpos[63]=0
+rareFreqpos[64]=0
+rareFreqpos[65]=0
+rareFreqpos[66]=0
+rareFreqpos[67]=0
+rareFreqpos[68]=0
+rareFreqpos[69]=0
+rareFreqpos[70]=0
+rareFreqpos[71]=0
+rareFreqpos[72]=0
+rareFreqpos[73]=0
+rareFreqpos[74]=0
+rareFreqpos[75]=0
+rareFreqpos[76]=0
+rareFreqpos[77]=0
+rareFreqpos[78]=0
+rareFreqpos[79]=0
+rareFreqpos[80]=0
+rareFreqpos[81]=0
+rareFreqpos[82]=0
+rareFreqpos[83]=0
+rareFreqpos[84]=0
+rareFreqpos[85]=0
+rareFreqpos[86]=0
+rareFreqpos[87]=0
+rareFreqpos[88]=0
+rareFreqpos[89]=0
+rareFreqpos[90]=0
+rareFreqpos[91]=0
+rareFreqpos[92]=0
+rareFreqpos[93]=0
+rareFreqpos[94]=0
+rareFreqpos[95]=0
+rareFreqpos[96]=0
+rareFreqpos[97]=0
+rareFreqpos[98]=0
+rareFreqpos[99]=0
+   0   0   0   0
+  defultstring[0][0] =null  localdefaulter[0][0]=0  defultstring[0][1] =null  localdefaulter[0][0]=0
+   1   4737   4153   0
+  defultstring[1][0] =PRP  localdefaulter[1][0]=1  defultstring[1][1] =PRL  localdefaulter[1][0]=1
+ testvalue=1
+ 1tf[0][3]=0.0013866877971473852    2tf[0][4]=1.0E-11
+possibletag1=PRP  possibletag2=PRL
+final tag = PRP
+   5   4676   15   0
+  defultstring[5][0] =PUNC  localdefaulter[5][0]=5  defultstring[5][1] =JJ  localdefaulter[5][0]=5
+ testvalue=5
+ 1tf[35][35]=0.004358161648177496    2tf[35][6]=0.0071315372424722665
+possibletag1=PUNC  possibletag2=JJ
+final tag = PUNC
+  obtTags[0]=NN  trmatrix[0][0]0.04536450079239303
+  obtTags[1]=PRP  trmatrix[0][0]0.04536450079239303
+  obtTags[2]=NN  trmatrix[0][0]0.04536450079239303
+*unknownpositions[2]=2
+  obtTags[3]=NN  trmatrix[0][0]0.04536450079239303
+*unknownpositions[3]=3
+  obtTags[4]=PUNC  trmatrix[0][0]0.04536450079239303
+  obtTags[5]=PUNC  trmatrix[0][0]0.04536450079239303
+Test patterns = 6
+test word[0]=1
+test word[1]=????
+test word[2]=?????????
+prevTag = PRP nextTag = NN test pattern =2
+possibletag[2] = NN
+123 testwd[0] = 1
+test word[3]=????????
+prevTag = NN nextTag = NN test pattern =3
+possibletag[3] = NN
+123 testwd[2] = ?????????
+test word[4]=??
+test word[5]=?
+ tg[0]= null
+ tg[1]= null
+ tg[2]= NN
+ tg[3]= NN
+ tg[4]= null
+ tg[5]= null
+   0   0   0   0
+  defultstring[0][0] =null  localdefaulter[0][0]=0  defultstring[0][1] =null  localdefaulter[0][0]=0
+   1   4737   4153   0
+  defultstring[1][0] =PRP  localdefaulter[1][0]=1  defultstring[1][1] =PRL  localdefaulter[1][0]=1
+ testvalue=1
+ 1tf[0][3]=0.0013866877971473852    2tf[0][4]=1.0E-11
+possibletag1=PRP  possibletag2=PRL
+final tag = PRP
+   5   4676   15   0
+  defultstring[5][0] =PUNC  localdefaulter[5][0]=5  defultstring[5][1] =JJ  localdefaulter[5][0]=5
+ testvalue=5
+ 1tf[35][35]=0.004358161648177496    2tf[35][6]=0.0071315372424722665
+possibletag1=PUNC  possibletag2=JJ
+final tag = PUNC
+taggrnn freqposition[0]=nl
+taggrnn freqposition[1]=PRP
+taggrnn freqposition[2]=nl
+taggrnn freqposition[3]=nl
+taggrnn freqposition[4]=VAUX
+taggrnn freqposition[5]=PUNC
+taggrnn freqposition[6]=null
+taggrnn freqposition[7]=null
+taggrnn freqposition[8]=null
+taggrnn freqposition[9]=null
+taggrnn freqposition[10]=null
+taggrnn freqposition[11]=null
+taggrnn freqposition[12]=null
+taggrnn freqposition[13]=null
+taggrnn freqposition[14]=null
+taggrnn freqposition[15]=null
+taggrnn freqposition[16]=null
+taggrnn freqposition[17]=null
+taggrnn freqposition[18]=null
+taggrnn freqposition[19]=null
+taggrnn freqposition[20]=null
+taggrnn freqposition[21]=null
+taggrnn freqposition[22]=null
+taggrnn freqposition[23]=null
+taggrnn freqposition[24]=null
+taggrnn freqposition[25]=null
+taggrnn freqposition[26]=null
+taggrnn freqposition[27]=null
+taggrnn freqposition[28]=null
+taggrnn freqposition[29]=null
+taggrnn freqposition[30]=null
+taggrnn freqposition[31]=null
+taggrnn freqposition[32]=null
+taggrnn freqposition[33]=null
+taggrnn freqposition[34]=null
+taggrnn freqposition[35]=null
+taggrnn freqposition[36]=null
+taggrnn freqposition[37]=null
+taggrnn freqposition[38]=null
+taggrnn freqposition[39]=null
+taggrnn freqposition[40]=null
+taggrnn freqposition[41]=null
+taggrnn freqposition[42]=null
+taggrnn freqposition[43]=null
+taggrnn freqposition[44]=null
+taggrnn freqposition[45]=null
+taggrnn freqposition[46]=null
+taggrnn freqposition[47]=null
+taggrnn freqposition[48]=null
+taggrnn freqposition[49]=null
+obttag[0]=NN
+obttag[1]=PRP
+obttag[2]=NN
+obttag[3]=NN
+obttag[4]=PUNC
+obttag[5]=PUNC
+unknown positions[0]=0
+unknown positions[1]=0
+unknown positions[2]=2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0013866877971473852  position:0  s11 =0  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0013866877971473852  position:0  s11 =1  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0013866877971473852  position:0  s11 =2  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0013866877971473852  position:0  s11 =3  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0013866877971473852  position:0  s11 =4  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0013866877971473852  position:0  s11 =5  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0013866877971473852  position:0  s11 =6  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =7  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =8  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =9  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =10  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =11  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =12  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =13  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =14  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =15  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =16  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =17  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =18  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =19  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =20  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =21  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =22  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =23  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =24  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =25  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =26  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =27  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =28  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =29  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =30  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =31  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =32  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =33  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =34  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =35  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =36  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =37  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =38  obttag=NN
+unknown positions[3]=3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =0  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =1  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =2  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =3  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =4  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =5  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =6  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =7  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =8  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =9  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =10  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =11  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =12  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =13  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =14  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =15  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =16  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =17  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =18  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =19  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =20  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =21  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =22  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =23  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =24  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =25  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =26  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =27  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =28  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =29  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =30  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =31  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =32  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =33  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =34  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =35  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =36  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =37  obttag=PUNC
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =38  obttag=PUNC
+unknown positions[4]=0
+unknown positions[5]=0
+freqposition[0]=nl  obttags[0]=NN
+freqposition[1]=PRP  obttags[1]=PRP
+freqposition[2]=nl  obttags[2]=NN
+freqposition[3]=nl  obttags[3]=NN
+freqposition[4]=VAUX  obttags[4]=VAUX
+???? (1)  PRP
+tagset[0]=NN
+tagset[35]=PUNC
+obtTags[1]=PRP   obttags[2]=NN
+????????? (2)  NN
+tagset[0]=NN
+tagset[35]=PUNC
+obtTags[2]=NN   obttags[3]=NN
+???????? (3)  NN
+tagset[0]=NN
+tagset[35]=PUNC
+obtTags[3]=NN   obttags[4]=VAUX
+spvb[0]=????????  testcout =6  i=3
+obtTags[3]=VF
+?? (4)  VAUX
+tagset[0]=NN
+tagset[35]=PUNC
+obtTags[4]=VAUX   obttags[5]=PUNC
+unknown positions[0]=0
+unknown positions[1]=0
+unknown positions[2]=2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =0  obttag=VF
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =1  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =2  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =3  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =4  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =5  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =6  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =7  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =8  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =9  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =10  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =11  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =12  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =13  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =14  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =15  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =16  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =17  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =18  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =19  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =20  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =21  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =22  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =23  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =24  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =25  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =26  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =27  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =28  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =29  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =30  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =31  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =32  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =33  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =34  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =35  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =36  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =37  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =38  obttag=VAUX
+why Transition2
+unknown positions[3]=3
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =0  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =1  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =2  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =3  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =4  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =5  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =6  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =7  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =8  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =9  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =10  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =11  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =12  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =13  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =14  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =15  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =16  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =17  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =18  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =19  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =20  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =21  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =22  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =23  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =24  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =25  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =26  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =27  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =28  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =29  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =30  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =31  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =32  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =33  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =34  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =35  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =36  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =37  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =38  obttag=VAUX
+unknown positions[4]=0
+unknown positions[5]=0
+  obtTags[0]=NN  trmatrix[0][0]0.04536450079239303
+  obtTags[1]=PRP  trmatrix[0][0]0.04536450079239303
+  obtTags[2]=NN  trmatrix[0][0]0.04536450079239303
+*unknownpositions[2]=2
+  obtTags[3]=VAUX  trmatrix[0][0]0.04536450079239303
+*unknownpositions[3]=3
+  obtTags[4]=VAUX  trmatrix[0][0]0.04536450079239303
+  obtTags[5]=PUNC  trmatrix[0][0]0.04536450079239303
+Test patterns = 6
+test word[0]=1
+test word[1]=????
+test word[2]=?????????
+prevTag = PRP nextTag = NN test pattern =2
+possibletag[2] = NN
+123 testwd[0] = 1
+test word[3]=????????
+prevTag = NN nextTag = NN test pattern =3
+possibletag[3] = NN
+123 testwd[2] = ?????????
+test word[4]=??
+test word[5]=?
+ tg[0]= null
+ tg[1]= null
+ tg[2]= NN
+ tg[3]= NN
+ tg[4]= null
+ tg[5]= null
+taggrnn freqposition[0]=nl
+taggrnn freqposition[1]=PRP
+taggrnn freqposition[2]=nl
+taggrnn freqposition[3]=nl
+taggrnn freqposition[4]=VAUX
+taggrnn freqposition[5]=PUNC
+taggrnn freqposition[6]=null
+taggrnn freqposition[7]=null
+taggrnn freqposition[8]=null
+taggrnn freqposition[9]=null
+taggrnn freqposition[10]=null
+taggrnn freqposition[11]=null
+taggrnn freqposition[12]=null
+taggrnn freqposition[13]=null
+taggrnn freqposition[14]=null
+taggrnn freqposition[15]=null
+taggrnn freqposition[16]=null
+taggrnn freqposition[17]=null
+taggrnn freqposition[18]=null
+taggrnn freqposition[19]=null
+taggrnn freqposition[20]=null
+taggrnn freqposition[21]=null
+taggrnn freqposition[22]=null
+taggrnn freqposition[23]=null
+taggrnn freqposition[24]=null
+taggrnn freqposition[25]=null
+taggrnn freqposition[26]=null
+taggrnn freqposition[27]=null
+taggrnn freqposition[28]=null
+taggrnn freqposition[29]=null
+taggrnn freqposition[30]=null
+taggrnn freqposition[31]=null
+taggrnn freqposition[32]=null
+taggrnn freqposition[33]=null
+taggrnn freqposition[34]=null
+taggrnn freqposition[35]=null
+taggrnn freqposition[36]=null
+taggrnn freqposition[37]=null
+taggrnn freqposition[38]=null
+taggrnn freqposition[39]=null
+taggrnn freqposition[40]=null
+taggrnn freqposition[41]=null
+taggrnn freqposition[42]=null
+taggrnn freqposition[43]=null
+taggrnn freqposition[44]=null
+taggrnn freqposition[45]=null
+taggrnn freqposition[46]=null
+taggrnn freqposition[47]=null
+taggrnn freqposition[48]=null
+taggrnn freqposition[49]=null
+obttag[0]=NN
+obttag[1]=PRP
+obttag[2]=NN
+obttag[3]=NN
+obttag[4]=VAUX
+obttag[5]=PUNC
+unknown positions[0]=0
+unknown positions[1]=0
+unknown positions[2]=2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0013866877971473852  position:0  s11 =0  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0013866877971473852  position:0  s11 =1  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0013866877971473852  position:0  s11 =2  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0013866877971473852  position:0  s11 =3  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0013866877971473852  position:0  s11 =4  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0013866877971473852  position:0  s11 =5  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0013866877971473852  position:0  s11 =6  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =7  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =8  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =9  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =10  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =11  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =12  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =13  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =14  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =15  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =16  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =17  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =18  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =19  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =20  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =21  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =22  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =23  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =24  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =25  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =26  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =27  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =28  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =29  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =30  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =31  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =32  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =33  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.0025752773375594296  position:7  s11 =34  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =35  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =36  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =37  obttag=NN
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =38  obttag=NN
+unknown positions[3]=3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =0  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =1  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =2  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =3  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =4  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =5  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =6  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =7  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =8  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =9  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =10  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =11  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =12  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =13  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =14  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =15  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =16  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =17  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =18  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =19  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =20  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =21  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =22  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =23  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =24  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =25  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =26  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =27  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =28  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =29  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =30  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =31  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =32  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =33  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =34  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =35  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =36  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =37  obttag=VAUX
+why Transition3
+Transition before =0.015451664025356577  position:0  s=3  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =38  obttag=VAUX
+why Transition3
+unknown positions[4]=0
+unknown positions[5]=0
+freqposition[0]=nl  obttags[0]=NN
+freqposition[1]=PRP  obttags[1]=PRP
+freqposition[2]=nl  obttags[2]=NN
+freqposition[3]=nl  obttags[3]=NN
+freqposition[4]=VAUX  obttags[4]=VAUX
+???? (1)  PRP
+tagset[0]=NN
+tagset[35]=PUNC
+obtTags[1]=PRP   obttags[2]=NN
+????????? (2)  NN
+tagset[0]=NN
+tagset[35]=PUNC
+obtTags[2]=NN   obttags[3]=NN
+???????? (3)  NN
+tagset[0]=NN
+tagset[35]=PUNC
+obtTags[3]=NN   obttags[4]=VAUX
+spvb[0]=????????  testcout =6  i=3
+obtTags[3]=VF
+?? (4)  VAUX
+tagset[0]=NN
+tagset[35]=PUNC
+obtTags[4]=VAUX   obttags[5]=PUNC
+unknown positions[0]=0
+unknown positions[1]=0
+unknown positions[2]=2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =0  obttag=VF
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =1  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =2  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =3  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =4  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =5  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =6  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =7  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =8  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =9  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =10  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =11  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =12  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =13  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =14  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =15  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =16  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =17  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =18  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =19  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =20  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =21  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =22  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =23  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =24  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =25  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =26  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =27  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =28  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =29  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =30  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =31  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =32  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =33  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =34  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =35  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =36  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =37  obttag=VAUX
+why Transition2
+Transition before =0.015451664025356577  position:0  s=2  obttag=NN
+Transition after =0.007527733755942948  position:35  s11 =38  obttag=VAUX
+why Transition2
+unknown positions[3]=3
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =0  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =1  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =2  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =3  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =4  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =5  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =6  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =7  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =8  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =9  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =10  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =11  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =12  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =13  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =14  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =15  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =16  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =17  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =18  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =19  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =20  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =21  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =22  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =23  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =24  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =25  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =26  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =27  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =28  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =29  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =30  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =31  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =32  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =33  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =34  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =35  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =36  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =37  obttag=VAUX
+Transition before =0.015451664025356577  position:0  s=3  obttag=VAUX
+Transition after =0.007527733755942948  position:35  s11 =38  obttag=VAUX
+unknown positions[4]=0
+unknown positions[5]=0
