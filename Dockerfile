@@ -26,4 +26,5 @@ RUN pip3 install -r backend/requirements.txt
 EXPOSE 5000
 
 # Run the app
+RUN which javac && javac -version
 CMD ["python3", "backend/app.py"]
