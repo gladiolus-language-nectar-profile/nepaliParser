@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 # Configuration
 UPLOAD_FOLDER = 'uploads'
 OUTPUT_FOLDER = 'outputs'
-JAVA_PROJECT_PATH = r'../Nepali Parser'  # Update this path
+JAVA_PROJECT_PATH = os.path.join(os.path.dirname(__file__), '../Nepali Parser')  # Update this path
 BATCH_FILE_PATH = os.path.join(JAVA_PROJECT_PATH, 'fastrun2.bat')
 
 # Ensure directories exist
