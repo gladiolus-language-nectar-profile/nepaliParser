@@ -28,53 +28,60 @@ class NepaliTextProcessor:
         self.java_project_path = java_project_path
     
     def process_text_file(self, file_content, filename):
-        try:
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
-            work_dir = os.path.join(tempfile.gettempdir(), f"nepali_parser_{timestamp}")
-            os.makedirs(work_dir, exist_ok=True)
-            
-            original_cwd = os.getcwd()
-            os.chdir(self.java_project_path)
+    """Process the uploaded text file using the Java batch commands"""
+    try:
+        # Create a unique working directory for this request
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+        work_dir = os.path.join(tempfile.gettempdir(), f"nepali_parser_{timestamp}")
+        os.makedirs(work_dir, exist_ok=True)
 
-            # Write input content to sentence.txt
-            sentence_file = os.path.join(self.java_project_path, 'sentence.txt')
-            with open(sentence_file, 'w', encoding='utf-8') as f:
-                f.write(file_content)
+        # Change to Java project directory
+        original_cwd = os.getcwd()
+        os.chdir(self.java_project_path)
 
-            # Write shell script
-            script_path = os.path.join(work_dir, 'process_single.sh')
-            with open(script_path, 'w', encoding='utf-8') as f:
-                f.write(self._create_single_sentence_shell_script())
+        # Write input content to sentence.txt
+        sentence_file = os.path.join(self.java_project_path, 'sentence.txt')
+        with open(sentence_file, 'w', encoding='utf-8') as f:
+            f.write(file_content)
 
-            # Make script executable
-            os.chmod(script_path, 0o755)
+        # Create a modified shell script for single sentence processing
+        modified_script_content = self._create_single_sentence_script()
+        modified_script_file = os.path.join(work_dir, 'process_single.sh')
 
-            # Execute the script using bash
-            logger.info(f"Executing shell script: {script_path}")
-            result = subprocess.run(
-                ['bash', script_path],
-                cwd=self.java_project_path,
-                capture_output=True,
-                text=True,
-                timeout=300
-            )
+        with open(modified_script_file, 'w', encoding='utf-8') as f:
+            f.write(modified_script_content)
+        os.chmod(modified_script_file, 0o755)  # Make the script executable
 
-            if result.returncode != 0:
-                logger.error(f"Shell execution failed: {result.stderr}")
-                raise Exception(f"Processing failed: {result.stderr}")
-            
-            # Read the output files
-            output_files = self._collect_output_files()
+        # Execute the shell script
+        logger.info(f"Executing script: {modified_script_file}")
+        result = subprocess.run(
+            ['bash', modified_script_file],
+            cwd=self.java_project_path,
+            capture_output=True,
+            text=True,
+            timeout=300,
+        )
 
-            os.chdir(original_cwd)
-            shutil.rmtree(work_dir, ignore_errors=True)
+        if result.returncode != 0:
+            logger.error(f"Script execution failed: {result.stderr}")
+            raise Exception(f"Processing failed: {result.stderr}")
 
-            return output_files
-        
-        except Exception as e:
-            os.chdir(original_cwd)
-            logger.error(f"Error processing file: {str(e)}")
-            raise e
+        # Read the output files
+        output_files = self._collect_output_files()
+
+        # Log which files were collected
+        logger.info(f"Collected output files: {list(output_files.keys())}")
+
+        # Clean up
+        os.chdir(original_cwd)
+        shutil.rmtree(work_dir, ignore_errors=True)
+
+        return output_files
+
+    except Exception as e:
+        os.chdir(original_cwd)
+        logger.error(f"Error processing file: {str(e)}")
+        raise e
 
     def _create_single_sentence_shell_script(self):
         return '''#!/bin/bash
