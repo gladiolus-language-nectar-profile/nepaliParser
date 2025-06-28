@@ -87,7 +87,7 @@ class NepaliTextProcessor:
         return '''#!/bin/bash
 
 # Add Java to PATH
-export PATH="$PATH:/usr/lib/jvm/java-14-openjdk-amd64/bin"
+# export PATH="$PATH:/usr/lib/jvm/java-14-openjdk-amd64/bin"
 
 echo "Compiling Java files..."
 javac -encoding utf8 CreateXmlFileDemo2.java
