@@ -83,7 +83,7 @@ class NepaliTextProcessor:
             logger.error(f"Error processing file: {str(e)}")
             raise e
 
-    def _create_single_sentence_shell_script(self):
+    def _create_single_sentence_script(self):
         return '''#!/bin/bash
 
 # Add Java to PATH
