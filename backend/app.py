@@ -142,6 +142,9 @@ while IFS= read -r line; do
     mv annoutput.txt "posout${count}.txt"
     count=$((count + 1))
     echo "$count"
+    cat annoutput.txt
+    echo "$line"
+    cat display.txt
 done < testpaper.txt
 echo "Processing completed automatically"
 '''
@@ -217,9 +220,8 @@ echo "Processing completed automatically"
         other_expected_files = [
             'sentence.txt',  # Last processed sentence
             'testpaper.txt',  # Original input
-            't11.txt',       # GRNN5 output
-            't111.txt',      # AutoCorrector output
-            't.txt'          # Lwg7 output
+            'annoutput.txt',
+            'display.txt'
         ]
         
         for filename in other_expected_files:
