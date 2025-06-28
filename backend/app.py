@@ -29,59 +29,59 @@ class NepaliTextProcessor:
     
     def process_text_file(self, file_content, filename):
     """Process the uploaded text file using the Java batch commands"""
-    try:
-        # Create a unique working directory for this request
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
-        work_dir = os.path.join(tempfile.gettempdir(), f"nepali_parser_{timestamp}")
-        os.makedirs(work_dir, exist_ok=True)
-
-        # Change to Java project directory
-        original_cwd = os.getcwd()
-        os.chdir(self.java_project_path)
-
-        # Write input content to sentence.txt
-        sentence_file = os.path.join(self.java_project_path, 'sentence.txt')
-        with open(sentence_file, 'w', encoding='utf-8') as f:
-            f.write(file_content)
-
-        # Create a modified shell script for single sentence processing
-        modified_script_content = self._create_single_sentence_script()
-        modified_script_file = os.path.join(work_dir, 'process_single.sh')
-
-        with open(modified_script_file, 'w', encoding='utf-8') as f:
-            f.write(modified_script_content)
-        os.chmod(modified_script_file, 0o755)  # Make the script executable
-
-        # Execute the shell script
-        logger.info(f"Executing script: {modified_script_file}")
-        result = subprocess.run(
-            ['bash', modified_script_file],
-            cwd=self.java_project_path,
-            capture_output=True,
-            text=True,
-            timeout=300,
-        )
-
-        if result.returncode != 0:
-            logger.error(f"Script execution failed: {result.stderr}")
-            raise Exception(f"Processing failed: {result.stderr}")
-
-        # Read the output files
-        output_files = self._collect_output_files()
-
-        # Log which files were collected
-        logger.info(f"Collected output files: {list(output_files.keys())}")
-
-        # Clean up
-        os.chdir(original_cwd)
-        shutil.rmtree(work_dir, ignore_errors=True)
-
-        return output_files
-
-    except Exception as e:
-        os.chdir(original_cwd)
-        logger.error(f"Error processing file: {str(e)}")
-        raise e
+        try:
+            # Create a unique working directory for this request
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+            work_dir = os.path.join(tempfile.gettempdir(), f"nepali_parser_{timestamp}")
+            os.makedirs(work_dir, exist_ok=True)
+    
+            # Change to Java project directory
+            original_cwd = os.getcwd()
+            os.chdir(self.java_project_path)
+    
+            # Write input content to sentence.txt
+            sentence_file = os.path.join(self.java_project_path, 'sentence.txt')
+            with open(sentence_file, 'w', encoding='utf-8') as f:
+                f.write(file_content)
+    
+            # Create a modified shell script for single sentence processing
+            modified_script_content = self._create_single_sentence_script()
+            modified_script_file = os.path.join(work_dir, 'process_single.sh')
+    
+            with open(modified_script_file, 'w', encoding='utf-8') as f:
+                f.write(modified_script_content)
+            os.chmod(modified_script_file, 0o755)  # Make the script executable
+    
+            # Execute the shell script
+            logger.info(f"Executing script: {modified_script_file}")
+            result = subprocess.run(
+                ['bash', modified_script_file],
+                cwd=self.java_project_path,
+                capture_output=True,
+                text=True,
+                timeout=300,
+            )
+    
+            if result.returncode != 0:
+                logger.error(f"Script execution failed: {result.stderr}")
+                raise Exception(f"Processing failed: {result.stderr}")
+    
+            # Read the output files
+            output_files = self._collect_output_files()
+    
+            # Log which files were collected
+            logger.info(f"Collected output files: {list(output_files.keys())}")
+    
+            # Clean up
+            os.chdir(original_cwd)
+            shutil.rmtree(work_dir, ignore_errors=True)
+    
+            return output_files
+    
+        except Exception as e:
+            os.chdir(original_cwd)
+            logger.error(f"Error processing file: {str(e)}")
+            raise e
 
     def _create_single_sentence_shell_script(self):
         return '''#!/bin/bash
