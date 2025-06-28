@@ -28,7 +28,7 @@ class NepaliTextProcessor:
         self.java_project_path = java_project_path
     
     def process_text_file(self, file_content, filename):
-    """Process the uploaded text file using the Java batch commands"""
+        """Process the uploaded text file using the Java batch commands"""
         try:
             # Create a unique working directory for this request
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
