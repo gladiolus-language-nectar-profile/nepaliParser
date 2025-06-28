@@ -63,6 +63,9 @@ while IFS= read -r line; do
     mv annoutput.txt "posout${count}.txt"
     count=$((count + 1))
     echo "$count"
+    cat annoutput.txt
+    echo "$line"
+    cat display.txt
 done < testpaper.txt
 read -p "Press enter to continue..."
 # Notes:
