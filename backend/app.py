@@ -52,10 +52,10 @@ javac -encoding utf8 Lwg7.java
 javac -encoding utf8 AutoCorrector.java
 echo "CONVERT UTF16 TO UTF8"
 count=0
-#cp /dev/null sentence.txt
-#cp /dev/null annoutput.txt
-#cp /dev/null display.txt
-#cp /dev/null input.txt
+cp /dev/null sentence.txt
+cp /dev/null annoutput.txt
+cp /dev/null display.txt
+cp /dev/null input.txt
 # Read each line from testpaper.txt
 while IFS= read -r line; do
     echo "$line"
@@ -67,7 +67,7 @@ while IFS= read -r line; do
     count=$((count + 1))
     echo "$count"
     cat annoutput.txt
-    echo "$line"
+    #echo "$line"
     cat display.txt
     cat input.txt
     
@@ -137,10 +137,10 @@ javac -encoding utf8 Lwg7.java
 javac -encoding utf8 AutoCorrector.java
 echo "CONVERT UTF16 TO UTF8"
 count=0
-#cp /dev/null sentence.txt
-#cp /dev/null annoutput.txt
-#cp /dev/null display.txt
-#cp /dev/null input.txt
+cp /dev/null sentence.txt
+cp /dev/null annoutput.txt
+cp /dev/null display.txt
+cp /dev/null input.txt
 # Read each line from testpaper.txt
 while IFS= read -r line; do
     echo "$line"
@@ -152,9 +152,9 @@ while IFS= read -r line; do
     count=$((count + 1))
     echo "$count"
     cat annoutput.txt
-    echo "$line"
+    #echo "$line"
     cat display.txt
-    echo "$line"
+    #echo "$line"
     cat input.txt
     
 done < testpaper.txt
