@@ -65,6 +65,10 @@ while IFS= read -r line; do
     cat annoutput.txt
     echo "$line"
     cat display.txt
+    cat input.txt
+    cp /dev/null annoutput.txt
+    cp /dev/null display.txt
+    cp /dev/null input.txt
 done < testpaper.txt
 read -p "Press enter to continue..."
 # Notes:
@@ -144,6 +148,10 @@ while IFS= read -r line; do
     cat annoutput.txt
     echo "$line"
     cat display.txt
+    cat input.txt
+    cp /dev/null annoutput.txt
+    cp /dev/null display.txt
+    cp /dev/null input.txt
 done < testpaper.txt
 echo "Processing completed automatically"
 '''
@@ -221,6 +229,7 @@ echo "Processing completed automatically"
             'testpaper.txt',  # Original input
             'annoutput.txt',
             'display.txt'
+            'input.txt'
         ]
         
         for filename in other_expected_files:
