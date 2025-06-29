@@ -52,6 +52,7 @@ javac -encoding utf8 Lwg7.java
 javac -encoding utf8 AutoCorrector.java
 echo "CONVERT UTF16 TO UTF8"
 count=0
+cp /dev/null sentence.txt
 cp /dev/null annoutput.txt
 cp /dev/null display.txt
 cp /dev/null input.txt
@@ -225,7 +226,6 @@ echo "Processing completed automatically"
         
         # Also collect other files that might be generated
         other_expected_files = [
-            'sentence.txt',  # Last processed sentence
             'testpaper.txt',  # Original input
             'annoutput.txt',
             'display.txt'
