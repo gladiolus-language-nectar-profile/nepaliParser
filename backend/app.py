@@ -52,7 +52,7 @@ javac -encoding utf8 Lwg7.java
 javac -encoding utf8 AutoCorrector.java
 echo "CONVERT UTF16 TO UTF8"
 count=0
-cp /dev/null sentence.txt
+#cp /dev/null sentence.txt
 cp /dev/null annoutput.txt
 cp /dev/null display.txt
 cp /dev/null input.txt
@@ -137,7 +137,7 @@ javac -encoding utf8 Lwg7.java
 javac -encoding utf8 AutoCorrector.java
 echo "CONVERT UTF16 TO UTF8"
 count=0
-cp /dev/null sentence.txt
+#cp /dev/null sentence.txt
 cp /dev/null annoutput.txt
 cp /dev/null display.txt
 cp /dev/null input.txt
