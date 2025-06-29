@@ -7,7 +7,6 @@ import shutil
 from datetime import datetime
 import logging
 import stat
-
 app = Flask(__name__)
 CORS(app)  # Enable CORS for React frontend
 
