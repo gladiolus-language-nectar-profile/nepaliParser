@@ -151,10 +151,10 @@ while IFS= read -r line; do
     mv annoutput.txt "posout${count}.txt"
     count=$((count + 1))
     echo "$count"
-    cat annoutput.txt
-    echo "$line"
-    cat display.txt
-    cat input.txt
+   # cat annoutput.txt
+   # echo "$line"
+   # cat display.txt
+   # cat input.txt
     
 done < testpaper.txt
 echo "Processing completed automatically"
