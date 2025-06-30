@@ -7,6 +7,7 @@ import shutil
 from datetime import datetime
 import logging
 import stat
+
 app = Flask(__name__)
 CORS(app)  # Enable CORS for React frontend
 
@@ -52,10 +53,6 @@ javac -encoding utf8 Lwg7.java
 javac -encoding utf8 AutoCorrector.java
 echo "CONVERT UTF16 TO UTF8"
 count=0
-#cp /dev/null sentence.txt
-#cp /dev/null annoutput.txt
-#cp /dev/null display.txt
-#cp /dev/null input.txt
 # Read each line from testpaper.txt
 while IFS= read -r line; do
     echo "$line"
@@ -66,13 +63,9 @@ while IFS= read -r line; do
     mv annoutput.txt "posout${count}.txt"
     count=$((count + 1))
     echo "$count"
-    #done < annoutput.txt
-    #done < display.txt
-    #done < input.txt
     cat annoutput.txt
+    echo "$line"
     cat display.txt
-    cat input.txt
-    
 done < testpaper.txt
 read -p "Press enter to continue..."
 # Notes:
@@ -139,10 +132,6 @@ javac -encoding utf8 Lwg7.java
 javac -encoding utf8 AutoCorrector.java
 echo "CONVERT UTF16 TO UTF8"
 count=0
-#cp /dev/null sentence.txt
-#cp /dev/null annoutput.txt
-#cp /dev/null display.txt
-#cp /dev/null input.txt
 # Read each line from testpaper.txt
 while IFS= read -r line; do
     echo "$line"
@@ -153,13 +142,9 @@ while IFS= read -r line; do
     mv annoutput.txt "posout${count}.txt"
     count=$((count + 1))
     echo "$count"
-    #done < annoutput.txt
-    #done < display.txt
-    #done < input.txt
     cat annoutput.txt
+    echo "$line"
     cat display.txt
-    cat input.txt
-    
 done < testpaper.txt
 echo "Processing completed automatically"
 '''
@@ -233,10 +218,10 @@ echo "Processing completed automatically"
         
         # Also collect other files that might be generated
         other_expected_files = [
+            'sentence.txt',  # Last processed sentence
             'testpaper.txt',  # Original input
             'annoutput.txt',
             'display.txt'
-            'input.txt'
         ]
         
         for filename in other_expected_files:
