@@ -1292,7 +1292,7 @@ public class Lwg7
         golden = finalmaxMatchings;
         int anncount = 0;
          try{
-      OutputStreamWriter writer2 = new OutputStreamWriter(new FileOutputStream(filename3, true), "UTF-8");
+      OutputStreamWriter writer2 = new OutputStreamWriter(new FileOutputStream(filename3, false), "UTF-8");
       BufferedWriter fout2 = new BufferedWriter(writer2);
       fout2.write("\n");
         System.out.println("Training data nKarkas="+nKarkas+"  iteration ="+iteration+"  nnlength ="+nnlength);
@@ -8252,7 +8252,7 @@ public int[][] intrachunk(String[] np, String[] tnp, int[][] duplicateparse, int
   int index = 0;
   int m1 = 0;
   try{
-  OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(filename, true), "UTF-8");
+  OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(filename, false), "UTF-8");
       BufferedWriter fout = new BufferedWriter(writer);
       //fout.write("\n");
      // fout.write("******************   Parsing Output  ********************************");
@@ -11162,7 +11162,7 @@ if(neg == 0)
   int index = 0;
   int m1 = 0;
   try{
-  OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(filename, true), "UTF-8");
+  OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(filename, false), "UTF-8");
       BufferedWriter fout = new BufferedWriter(writer);
       //fout.write("\n");
      // fout.write("******************   Parsing Output  ********************************");
@@ -15693,7 +15693,7 @@ public String[] getEnglishsentence(int[][] parsedtree, String[]  chunk,String[] 
       //System.out.println(" New Input Array");
             System.out.println(" New Input Array not revised 500 matris");
             try{
-  OutputStreamWriter writer2 = new OutputStreamWriter(new FileOutputStream(filename3, true), "UTF-8");
+  OutputStreamWriter writer2 = new OutputStreamWriter(new FileOutputStream(filename3, false), "UTF-8");
       BufferedWriter fout2 = new BufferedWriter(writer2);
     //  fout2.write("\n");
     //  fout2.write("\n");
@@ -17083,7 +17083,7 @@ public String[] getEnglishsentence(int[][] parsedtree, String[]  chunk,String[] 
   }
   int index= 0;
   try{
-    OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(filename, true), "UTF-8");
+    OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(filename, false), "UTF-8");
           BufferedWriter fout = new BufferedWriter(writer);
           
           //fout.write("\n");
