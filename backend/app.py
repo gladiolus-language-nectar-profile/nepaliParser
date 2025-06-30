@@ -66,8 +66,10 @@ while IFS= read -r line; do
     mv annoutput.txt "posout${count}.txt"
     count=$((count + 1))
     echo "$count"
+    done < annoutput.txt
+    done < display.txt
+    done < input.txt
     cat annoutput.txt
-    #echo "$line"
     cat display.txt
     cat input.txt
     
@@ -151,10 +153,11 @@ while IFS= read -r line; do
     mv annoutput.txt "posout${count}.txt"
     count=$((count + 1))
     echo "$count"
+    done < annoutput.txt
+    done < display.txt
+    done < input.txt
     cat annoutput.txt
-    #echo "$line"
     cat display.txt
-    #echo "$line"
     cat input.txt
     
 done < testpaper.txt
