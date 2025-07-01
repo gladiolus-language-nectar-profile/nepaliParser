@@ -42,6 +42,7 @@ class NepaliTextProcessor:
 # Add Java to PATH (if needed)
 export PATH="$PATH:/usr/lib/jvm/java-14-openjdk-amd64/bin"
 echo "Compiling Java files..."
+rm -f annoutput.txt display.txt t11.txt
 javac -encoding utf8 CreateXmlFileDemo2.java
 javac -encoding utf8 ReadXMLFile.java
 javac -Xlint:unchecked Mymatching1.java
@@ -121,6 +122,7 @@ read -p "Press enter to continue..."
 # Add Java to PATH (if needed)
 export PATH="$PATH:/usr/lib/jvm/java-14-openjdk-amd64/bin"
 echo "Compiling Java files..."
+rm -f annoutput.txt display.txt t11.txt
 javac -encoding utf8 CreateXmlFileDemo2.java
 javac -encoding utf8 ReadXMLFile.java
 javac -Xlint:unchecked Mymatching1.java
