@@ -60,7 +60,7 @@ while IFS= read -r line; do
     java -Xmx1000m GRNN5 sentence.txt > t11.txt
     # java -Xmx10000m AutoCorrector annoutput.txt smallmaindata1.txt > t111.txt
     # java Lwg7 "out${count}.png" smallmaindata1.txt > t.txt
-    mv annoutput.txt "posout${count}.txt"
+    # mv annoutput.txt "posout${count}.txt"
     count=$((count + 1))
     echo "$count"
     cat annoutput.txt
@@ -139,7 +139,7 @@ while IFS= read -r line; do
     java -Xmx1000m GRNN5 sentence.txt > t11.txt
     # java -Xmx10000m AutoCorrector annoutput.txt smallmaindata1.txt > t111.txt
     # java Lwg7 "out${count}.png" smallmaindata1.txt > t.txt
-    mv annoutput.txt "posout${count}.txt"
+    # mv annoutput.txt "posout${count}.txt"
     count=$((count + 1))
     echo "$count"
     cat annoutput.txt
