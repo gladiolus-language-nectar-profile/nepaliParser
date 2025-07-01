@@ -101,13 +101,36 @@ read -p "Press enter to continue..."
             modified_script_content = '''#!/bin/bash
 # Add Java to PATH (if needed)
 export PATH="$PATH:/usr/lib/jvm/java-14-openjdk-amd64/bin"
+# Compile Java files if .java sources exist
+if [ -f "GRNN5.java" ]; then
+    echo "Compiling GRNN5.java..."
+    javac GRNN5.java
+fi
+
+if [ -f "AutoCorrector.java" ]; then
+    echo "Compiling AutoCorrector.java..."
+    javac AutoCorrector.java
+fi
+
+if [ -f "Lwg7.java" ]; then
+    echo "Compiling Lwg7.java..."
+    javac Lwg7.java
+fi
+
+# Initialize count variable
+count=0
+
+# Run the Java programs
 java -Xmx1000m GRNN5 testpaper.txt 
 java -Xmx10000m AutoCorrector annoutput.txt smallmaindata1.txt
 java Lwg7 "out${count}.png" smallmaindata1.txt 
+
+# Display outputs
 cat annoutput.txt
 cat display.txt
 cat input.txt
-done < testpaper.txt
+
+echo "Processing completed automatically"
 echo "Processing completed automatically"
 '''
             
