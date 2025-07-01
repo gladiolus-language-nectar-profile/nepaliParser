@@ -41,12 +41,31 @@ class NepaliTextProcessor:
             shell_script_content = '''#!/bin/bash
 # Add Java to PATH (if needed)
 export PATH="$PATH:/usr/lib/jvm/java-14-openjdk-amd64/bin"
-java -Xmx1000m GRNN5 testpaper.txt 
-java -Xmx10000m AutoCorrector annoutput.txt smallmaindata1.txt
-java Lwg7 "out${count}.png" smallmaindata1.txt 
-cat annoutput.txt
-cat display.txt
-cat input.txt
+echo "Compiling Java files..."
+javac -encoding utf8 CreateXmlFileDemo2.java
+javac -encoding utf8 ReadXMLFile.java
+javac -Xlint:unchecked Mymatching1.java
+javac -encoding utf8 Chunker.java
+javac -encoding utf8 PaintNodes2.java
+javac -encoding utf8 TagGRNN.java
+javac -encoding utf8 GRNN5.java
+javac -encoding utf8 Lwg7.java
+javac -encoding utf8 AutoCorrector.java
+echo "CONVERT UTF16 TO UTF8"
+count=0
+# Read each line from testpaper.txt
+while IFS= read -r line; do
+    echo "$line"
+    echo "$line" > sentence.txt
+    java -Xmx1000m GRNN5 sentence.txt > t11.txt
+    java -Xmx10000m AutoCorrector annoutput.txt smallmaindata1.txt > t111.txt
+    java Lwg7 "out${count}.png" smallmaindata1.txt > t.txt
+    mv annoutput.txt "posout${count}.txt"
+    count=$((count + 1))
+    echo "$count"
+    cat annoutput.txt
+    echo "$line"
+    cat display.txt
 done < testpaper.txt
 read -p "Press enter to continue..."
 # Notes:
@@ -101,36 +120,32 @@ read -p "Press enter to continue..."
             modified_script_content = '''#!/bin/bash
 # Add Java to PATH (if needed)
 export PATH="$PATH:/usr/lib/jvm/java-14-openjdk-amd64/bin"
-# Compile Java files if .java sources exist
-if [ -f "GRNN5.java" ]; then
-    echo "Compiling GRNN5.java..."
-    javac GRNN5.java
-fi
-
-if [ -f "AutoCorrector.java" ]; then
-    echo "Compiling AutoCorrector.java..."
-    javac AutoCorrector.java
-fi
-
-if [ -f "Lwg7.java" ]; then
-    echo "Compiling Lwg7.java..."
-    javac Lwg7.java
-fi
-
-# Initialize count variable
+echo "Compiling Java files..."
+javac -encoding utf8 CreateXmlFileDemo2.java
+javac -encoding utf8 ReadXMLFile.java
+javac -Xlint:unchecked Mymatching1.java
+javac -encoding utf8 Chunker.java
+javac -encoding utf8 PaintNodes2.java
+javac -encoding utf8 TagGRNN.java
+javac -encoding utf8 GRNN5.java
+javac -encoding utf8 Lwg7.java
+javac -encoding utf8 AutoCorrector.java
+echo "CONVERT UTF16 TO UTF8"
 count=0
-
-# Run the Java programs
-java -Xmx1000m GRNN5 testpaper.txt 
-java -Xmx10000m AutoCorrector annoutput.txt smallmaindata1.txt
-java Lwg7 "out${count}.png" smallmaindata1.txt 
-
-# Display outputs
-cat annoutput.txt
-cat display.txt
-cat input.txt
-
-echo "Processing completed automatically"
+# Read each line from testpaper.txt
+while IFS= read -r line; do
+    echo "$line"
+    echo "$line" > sentence.txt
+    java -Xmx1000m GRNN5 sentence.txt > t11.txt
+    java -Xmx10000m AutoCorrector annoutput.txt smallmaindata1.txt > t111.txt
+    java Lwg7 "out${count}.png" smallmaindata1.txt > t.txt
+    mv annoutput.txt "posout${count}.txt"
+    count=$((count + 1))
+    echo "$count"
+    cat annoutput.txt
+    echo "$line"
+    cat display.txt
+done < testpaper.txt
 echo "Processing completed automatically"
 '''
             
@@ -206,8 +221,7 @@ echo "Processing completed automatically"
             'sentence.txt',  # Last processed sentence
             'testpaper.txt',  # Original input
             'annoutput.txt',
-            'display.txt',
-            'input.txt'
+            'display.txt'
         ]
         
         for filename in other_expected_files:
