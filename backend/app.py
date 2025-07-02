@@ -51,11 +51,12 @@ java -Xmx1000m GRNN5 testpaper.txt
     # java -Xmx10000m AutoCorrector annoutput.txt smallmaindata1.txt > t111.txt
     # java Lwg7 "out${count}.png" smallmaindata1.txt > t.txt
     # mv annoutput.txt "posout${count}.txt"
-    count=$((count + 1))
-    echo "$count"
-    cat annoutput.txt
-    echo "$line"
-    cat display.txt
+count=$((count + 1))
+echo "$count"
+cat annoutput.txt
+echo "$line"
+echo "$line" > annoutput.txt
+cat display.txt
 done < testpaper.txt
 read -p "Press enter to continue..."
 # Notes:
@@ -116,15 +117,16 @@ count=0
 #while IFS= read -r line; do
  #   echo "$line"
   #  echo "$line" > sentence.txt
-    java -Xmx1000m GRNN5 testpaper.txt
+java -Xmx1000m GRNN5 testpaper.txt
     # java -Xmx10000m AutoCorrector annoutput.txt smallmaindata1.txt > t111.txt
     # java Lwg7 "out${count}.png" smallmaindata1.txt > t.txt
     # mv annoutput.txt "posout${count}.txt"
-    count=$((count + 1))
-    echo "$count"
-    cat annoutput.txt
-    echo "$line"
-    cat display.txt
+count=$((count + 1))
+echo "$count"
+cat annoutput.txt
+echo "$line" > annoutput.txt
+echo "$line"
+cat display.txt
 done < testpaper.txt
 echo "Processing completed automatically"
 '''
