@@ -68,7 +68,7 @@ rm -f input.txt annoutput.txt smallmaindata1.txt posout.txt processed_output.txt
 if [ -f "sentence.txt" ]; then
     echo "Found sentence.txt, processing..."
     if [ -f "GRNN5.class" ]; then
-        java -Xmx1000m GRNN5 sentence.txt || echo "GRNN5 processing completed with warnings"
+        java -Xmx1000m GRNN5 sentence.txt >t1.txt || echo "GRNN5 processing completed with warnings"
     fi
     
     if [ -f "AutoCorrector.class" ] && [ -f "annoutput.txt" ]; then
@@ -186,6 +186,7 @@ fi
         
         # List of expected output files
         expected_files = [
+            't1.txt',
             'posout.txt',
             'input.txt',
             'processed_output.txt',
