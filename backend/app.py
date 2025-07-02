@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 UPLOAD_FOLDER = 'uploads'
 OUTPUT_FOLDER = 'outputs'
 # Use relative path since everything is copied to /app in Docker
-JAVA_PROJECT_PATH = os.path.abspath('../Nepali Parser')  # This should point to your Java files
+JAVA_PROJECT_PATH = os.path.abspath('../Nepali Parser/')  # This should point to your Java files
 SHELL_SCRIPT_PATH = os.path.join(JAVA_PROJECT_PATH, 'process_nepali.sh')
 
 # Ensure directories exist
