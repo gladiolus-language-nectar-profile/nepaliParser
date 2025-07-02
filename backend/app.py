@@ -240,7 +240,7 @@ def process_nepali_text():
         if file.filename == '':
             return jsonify({'error': 'No file selected'}), 400
         
-        if not file.filename.swith('.txt'):
+        if not file.filename.with('.txt'):
             return jsonify({'error': 'Only .txt files are supported'}), 400
         
         # Read file content
