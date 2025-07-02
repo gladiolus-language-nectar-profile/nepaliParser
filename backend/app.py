@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 UPLOAD_FOLDER = 'uploads'
 OUTPUT_FOLDER = 'outputs'
 # Use relative path since everything is copied to /app in Docker
-JAVA_PROJECT_PATH = os.path.abspath('../Nepali Parser/')  # This should point to your Java files
+JAVA_PROJECT_PATH = os.path.abspath('../Nepali Parser')  # This should point to your Java files
 SHELL_SCRIPT_PATH = os.path.join(JAVA_PROJECT_PATH, 'process_nepali.sh')
 
 # Ensure directories exist
@@ -42,24 +42,31 @@ class NepaliTextProcessor:
 # Add Java to PATH (if needed)
 export PATH="$PATH:/usr/lib/jvm/java-14-openjdk-amd64/bin"
 echo "Compiling Java files..."
-
+javac -encoding utf8 CreateXmlFileDemo2.java
+javac -encoding utf8 ReadXMLFile.java
+javac -Xlint:unchecked Mymatching1.java
+javac -encoding utf8 Chunker.java
+javac -encoding utf8 PaintNodes2.java
+javac -encoding utf8 TagGRNN.java
+javac -encoding utf8 GRNN5.java
+javac -encoding utf8 Lwg7.java
+javac -encoding utf8 AutoCorrector.java
+echo "CONVERT UTF16 TO UTF8"
+count=0
 # Read each line from testpaper.txt
-#while IFS= read -r line; do
-  #  echo "$line"
-   # echo "$line" > sentence.txt
-java -Xmx1000m GRNN5 testpaper.txt
-    # java -Xmx10000m AutoCorrector annoutput.txt smallmaindata1.txt > t111.txt
-    # java Lwg7 "out${count}.png" smallmaindata1.txt > t.txt
-    # mv annoutput.txt "posout${count}.txt"
-count=$((count + 1))
-echo "$count"
-cat annoutput.txt
-> annoutput.txt
-#echo "$line"
-echo "$line" > annoutput.txt
-
-cat display.txt
-#done < testpaper.txt
+while IFS= read -r line; do
+    echo "$line"
+    echo "$line" > sentence.txt
+    java -Xmx1000m GRNN5 sentence.txt > t11.txt
+    java -Xmx10000m AutoCorrector annoutput.txt smallmaindata1.txt > t111.txt
+    java Lwg7 "out${count}.png" smallmaindata1.txt > t.txt
+    mv annoutput.txt "posout${count}.txt"
+    count=$((count + 1))
+    echo "$count"
+    cat annoutput.txt
+    echo "$line"
+    cat display.txt
+done < testpaper.txt
 read -p "Press enter to continue..."
 # Notes:
 # Replace the Java path (/usr/lib/jvm/...) with the correct one on your Linux system
@@ -113,23 +120,31 @@ read -p "Press enter to continue..."
             modified_script_content = '''#!/bin/bash
 # Add Java to PATH (if needed)
 export PATH="$PATH:/usr/lib/jvm/java-14-openjdk-amd64/bin"
-
+echo "Compiling Java files..."
+javac -encoding utf8 CreateXmlFileDemo2.java
+javac -encoding utf8 ReadXMLFile.java
+javac -Xlint:unchecked Mymatching1.java
+javac -encoding utf8 Chunker.java
+javac -encoding utf8 PaintNodes2.java
+javac -encoding utf8 TagGRNN.java
+javac -encoding utf8 GRNN5.java
+javac -encoding utf8 Lwg7.java
+javac -encoding utf8 AutoCorrector.java
+echo "CONVERT UTF16 TO UTF8"
 count=0
 # Read each line from testpaper.txt
-#while IFS= read -r line; do
- #   echo "$line"
-  #  echo "$line" > sentence.txt
-java -Xmx1000m GRNN5 testpaper.txt
-    # java -Xmx10000m AutoCorrector annoutput.txt smallmaindata1.txt > t111.txt
-    # java Lwg7 "out${count}.png" smallmaindata1.txt > t.txt
-    # mv annoutput.txt "posout${count}.txt"
-count=$((count + 1))
-echo "$count"
-cat annoutput.txt
-echo "$line" > annoutput.txt
-done > annoutput.txt
-echo "$line"
-cat display.txt
+while IFS= read -r line; do
+    echo "$line"
+    echo "$line" > sentence.txt
+    java -Xmx1000m GRNN5 sentence.txt > t11.txt
+    java -Xmx10000m AutoCorrector annoutput.txt smallmaindata1.txt > t111.txt
+    java Lwg7 "out${count}.png" smallmaindata1.txt > t.txt
+    mv annoutput.txt "posout${count}.txt"
+    count=$((count + 1))
+    echo "$count"
+    cat annoutput.txt
+    echo "$line"
+    cat display.txt
 done < testpaper.txt
 echo "Processing completed automatically"
 '''
@@ -206,8 +221,7 @@ echo "Processing completed automatically"
             'sentence.txt',  # Last processed sentence
             'testpaper.txt',  # Original input
             'annoutput.txt',
-            'display.txt',
-            'input.txt'
+            'display.txt'
         ]
         
         for filename in other_expected_files:
@@ -240,7 +254,7 @@ def process_nepali_text():
         if file.filename == '':
             return jsonify({'error': 'No file selected'}), 400
         
-        if not file.filename.with('.txt'):
+        if not file.filename.endswith('.txt'):
             return jsonify({'error': 'Only .txt files are supported'}), 400
         
         # Read file content
@@ -275,7 +289,7 @@ def process_nepali_text():
             for filename, content in output_files.items():
                 f.write(f"\n--- {filename} ---\n")
                 f.write(content)
-                f.write(f"\n---  of {filename} ---\n\n")
+                f.write(f"\n--- End of {filename} ---\n\n")
         
         logger.info(f"Output file created: {output_path}")
         
