@@ -54,10 +54,12 @@ java -Xmx1000m GRNN5 testpaper.txt
 count=$((count + 1))
 echo "$count"
 cat annoutput.txt
-echo "$line"
+> annoutput.txt
+#echo "$line"
 echo "$line" > annoutput.txt
+
 cat display.txt
-done < testpaper.txt
+#done < testpaper.txt
 read -p "Press enter to continue..."
 # Notes:
 # Replace the Java path (/usr/lib/jvm/...) with the correct one on your Linux system
@@ -125,6 +127,7 @@ count=$((count + 1))
 echo "$count"
 cat annoutput.txt
 echo "$line" > annoutput.txt
+done > annoutput.txt
 echo "$line"
 cat display.txt
 done < testpaper.txt
@@ -237,7 +240,7 @@ def process_nepali_text():
         if file.filename == '':
             return jsonify({'error': 'No file selected'}), 400
         
-        if not file.filename.endswith('.txt'):
+        if not file.filename.swith('.txt'):
             return jsonify({'error': 'Only .txt files are supported'}), 400
         
         # Read file content
@@ -272,7 +275,7 @@ def process_nepali_text():
             for filename, content in output_files.items():
                 f.write(f"\n--- {filename} ---\n")
                 f.write(content)
-                f.write(f"\n--- End of {filename} ---\n\n")
+                f.write(f"\n---  of {filename} ---\n\n")
         
         logger.info(f"Output file created: {output_path}")
         
