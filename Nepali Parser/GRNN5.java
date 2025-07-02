@@ -595,9 +595,10 @@ public class GRNN5{
 					obtTags[1] = "NN";
 				}
 
-		//System.out.println("test count = "+testCount);
+		System.out.println("Part Of Speech Tagged Output");
 		for(int i1 = 1 ; i1 < testCount ; i1++){
 			annTagedFile.write("  "+testSentence[i1]+"  "+obtTags[i1]);
+			System.out.print("  "+testSentence[i1]+"  "+obtTags[i1]);
 		}
 		//SpellCheck()
 
