@@ -8,6 +8,11 @@ from datetime import datetime
 import logging
 import stat
 
+defaults:
+    run:
+        shell: bash
+        working-directory: ./scripts
+
 app = Flask(__name__)
 CORS(app)  # Enable CORS for React frontend
 
