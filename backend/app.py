@@ -145,6 +145,9 @@ while IFS= read -r line; do
     echo "$line"
     echo "$line" > sentence.txt
     java -Xmx1000m GRNN5 sentence.txt > t1.txt
+    git add render.yaml
+    git commit -m "Add render.yaml"
+    git push
     java -Xmx10000m AutoCorrector annoutput.txt smallmaindata1.txt > t111.txt
     java Lwg7 "out${count}.png" smallmaindata1.txt > t.txt
     mv annoutput.txt "posout${count}.txt"
