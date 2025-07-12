@@ -363,5 +363,5 @@ if __name__ == '__main__':
         logger.error(f"Java is not available: {str(e)}")
     
     # Get port from environment variable (Render sets this)
-    port = int(os.environ.get('PORT', 5000))
+    port = int(os.environ.get("PORT", 5000))  # Railway sets PORT dynamically
     app.run(debug=False, host='0.0.0.0', port=port)
