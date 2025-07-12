@@ -8,11 +8,6 @@ from datetime import datetime
 import logging
 import stat
 
-defaults:
-    run:
-        shell: bash
-        working-directory: ./scripts
-
 app = Flask(__name__)
 CORS(app)  # Enable CORS for React frontend
 
@@ -47,6 +42,7 @@ class NepaliTextProcessor:
 # Add Java to PATH (if needed)
 export PATH="$PATH:/usr/lib/jvm/java-14-openjdk-amd64/bin"
 echo "Compiling Java files..."
+rm -f annoutput.txt display.txt t11.txt
 javac -encoding utf8 CreateXmlFileDemo2.java
 javac -encoding utf8 ReadXMLFile.java
 javac -Xlint:unchecked Mymatching1.java
@@ -62,13 +58,10 @@ count=0
 while IFS= read -r line; do
     echo "$line"
     echo "$line" > sentence.txt
-    java -Xmx1000m GRNN5 sentence.txt > t1.txt
-    git add render.yaml
-    git commit -m "Add render.yaml"
-    git push
-    java -Xmx10000m AutoCorrector annoutput.txt smallmaindata1.txt > t111.txt
-    java Lwg7 "out${count}.png" smallmaindata1.txt > t.txt
-    mv annoutput.txt "posout${count}.txt"
+    java -Xmx1000m GRNN5 sentence.txt > t11.txt
+    # java -Xmx10000m AutoCorrector annoutput.txt smallmaindata1.txt > t111.txt
+    # java Lwg7 "out${count}.png" smallmaindata1.txt > t.txt
+    # mv annoutput.txt "posout${count}.txt"
     count=$((count + 1))
     echo "$count"
     cat annoutput.txt
@@ -129,6 +122,7 @@ read -p "Press enter to continue..."
 # Add Java to PATH (if needed)
 export PATH="$PATH:/usr/lib/jvm/java-14-openjdk-amd64/bin"
 echo "Compiling Java files..."
+rm -f annoutput.txt display.txt t11.txt
 javac -encoding utf8 CreateXmlFileDemo2.java
 javac -encoding utf8 ReadXMLFile.java
 javac -Xlint:unchecked Mymatching1.java
@@ -144,13 +138,10 @@ count=0
 while IFS= read -r line; do
     echo "$line"
     echo "$line" > sentence.txt
-    java -Xmx1000m GRNN5 sentence.txt > t1.txt
-    git add render.yaml
-    git commit -m "Add render.yaml"
-    git push
-    java -Xmx10000m AutoCorrector annoutput.txt smallmaindata1.txt > t111.txt
-    java Lwg7 "out${count}.png" smallmaindata1.txt > t.txt
-    mv annoutput.txt "posout${count}.txt"
+    java -Xmx1000m GRNN5 sentence.txt > t11.txt
+    # java -Xmx10000m AutoCorrector annoutput.txt smallmaindata1.txt > t111.txt
+    # java Lwg7 "out${count}.png" smallmaindata1.txt > t.txt
+    # mv annoutput.txt "posout${count}.txt"
     count=$((count + 1))
     echo "$count"
     cat annoutput.txt
@@ -232,9 +223,7 @@ echo "Processing completed automatically"
             'sentence.txt',  # Last processed sentence
             'testpaper.txt',  # Original input
             'annoutput.txt',
-            'display.txt',
-            't1.txt',
-            't11.txt'
+            'display.txt'
         ]
         
         for filename in other_expected_files:
