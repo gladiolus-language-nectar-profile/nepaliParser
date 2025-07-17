@@ -90,6 +90,29 @@ read -p "Press enter to continue..."
             logger.error(f"Error setting up shell script: {str(e)}")
             raise e
     
+    def _clean_output_files(self):
+        """Clean any existing output files before processing to ensure fresh generation"""
+        files_to_clean = [
+            'annoutput.txt',
+            'display.txt',
+            't11.txt',
+            'sentence.txt',
+            'testpaper.txt'
+        ]
+        
+        # Also clean any posout files
+        for i in range(50):  # Clean up to 50 possible posout files
+            files_to_clean.append(f'posout{i}.txt')
+        
+        for filename in files_to_clean:
+            filepath = os.path.join(self.java_project_path, filename)
+            if os.path.exists(filepath):
+                try:
+                    os.remove(filepath)
+                    logger.info(f"Cleaned existing file: {filename}")
+                except Exception as e:
+                    logger.warning(f"Could not clean {filename}: {str(e)}")
+    
     def process_text_file(self, file_content, filename):
         """Process the uploaded text file using your exact shell script"""
         try:
@@ -107,12 +130,18 @@ read -p "Press enter to continue..."
             os.chdir(self.java_project_path)
             logger.info(f"Changed to directory: {os.getcwd()}")
             
+            # Clean any existing output files to ensure fresh generation
+            self._clean_output_files()
+            
             # Write input content to testpaper.txt (as your script expects)
             testpaper_file = os.path.join(self.java_project_path, 'testpaper.txt')
             with open(testpaper_file, 'w', encoding='utf-8') as f:
                 f.write(file_content.strip())
             
             logger.info(f"Written content to testpaper.txt: {len(file_content)} characters")
+            
+            # Store timestamps of files before processing
+            files_before = self._get_file_timestamps()
             
             # Execute your exact shell script but handle the interactive prompt
             logger.info(f"Starting script execution...")
@@ -144,9 +173,21 @@ while IFS= read -r line; do
     # mv annoutput.txt "posout${count}.txt"
     count=$((count + 1))
     echo "$count"
-    cat annoutput.txt
+    if [ -f "annoutput.txt" ]; then
+        echo "=== annoutput.txt content ==="
+        cat annoutput.txt
+        echo "=== end annoutput.txt ==="
+    else
+        echo "WARNING: annoutput.txt not found"
+    fi
     echo "$line"
-    cat display.txt
+    if [ -f "display.txt" ]; then
+        echo "=== display.txt content ==="
+        cat display.txt
+        echo "=== end display.txt ==="
+    else
+        echo "WARNING: display.txt not found"
+    fi
 done < testpaper.txt
 echo "Processing completed automatically"
 '''
@@ -177,8 +218,9 @@ echo "Processing completed automatically"
                 logger.error(f"Stderr: {result.stderr}")
                 # Don't raise exception immediately, try to collect any output that was generated
             
-            # Read the output files
-            output_files = self._collect_output_files()
+            # Read the output files - only those generated after processing
+            files_after = self._get_file_timestamps()
+            output_files = self._collect_output_files(files_before, files_after)
             
             # If no output files and script failed, raise exception
             if not output_files and result.returncode != 0:
@@ -194,51 +236,103 @@ echo "Processing completed automatically"
             logger.error(f"Error processing file: {str(e)}")
             raise e
     
-    def _collect_output_files(self):
-        """Collect the generated output files from your script"""
+    def _get_file_timestamps(self):
+        """Get timestamps of files in the Java project directory"""
+        timestamps = {}
+        try:
+            for filename in os.listdir(self.java_project_path):
+                filepath = os.path.join(self.java_project_path, filename)
+                if os.path.isfile(filepath):
+                    timestamps[filename] = os.path.getmtime(filepath)
+        except Exception as e:
+            logger.warning(f"Could not get file timestamps: {str(e)}")
+        return timestamps
+    
+    def _collect_output_files(self, files_before=None, files_after=None):
+        """Collect only the dynamically generated output files"""
         output_files = {}
-        
-        # Your script generates posout{count}.txt files and other outputs
-        # Let's collect all possible output files
         
         logger.info(f"Looking for output files in: {self.java_project_path}")
         logger.info(f"Files in directory: {os.listdir(self.java_project_path) if os.path.exists(self.java_project_path) else 'Directory not found'}")
         
-        # Look for posout files (posout0.txt, posout1.txt, etc.)
+        # Priority files that should be dynamically generated
+        priority_files = [
+            'annoutput.txt',  # This is the main file you want
+            'display.txt',
+            'sentence.txt',
+            't11.txt'
+        ]
+        
+        # Check priority files first
+        for filename in priority_files:
+            filepath = os.path.join(self.java_project_path, filename)
+            if os.path.exists(filepath):
+                # Check if file was generated/modified during this processing run
+                if self._is_file_generated(filename, files_before, files_after):
+                    try:
+                        with open(filepath, 'r', encoding='utf-8') as f:
+                            content = f.read()
+                            if content.strip():  # Only include non-empty files
+                                output_files[filename] = content
+                                logger.info(f"Successfully read dynamically generated {filename}: {len(content)} characters")
+                            else:
+                                logger.warning(f"File {filename} exists but is empty")
+                    except Exception as e:
+                        logger.warning(f"Could not read {filename}: {str(e)}")
+                else:
+                    logger.info(f"File {filename} exists but was not generated in this run, skipping")
+        
+        # Look for posout files (posout0.txt, posout1.txt, etc.) - these should be dynamically generated
         for i in range(10):  # Check first 10 possible files
             posout_file = f'posout{i}.txt'
             filepath = os.path.join(self.java_project_path, posout_file)
             if os.path.exists(filepath):
-                try:
-                    with open(filepath, 'r', encoding='utf-8') as f:
-                        content = f.read()
-                        if content.strip():
-                            output_files[posout_file] = content
-                            logger.info(f"Successfully read {posout_file}: {len(content)} characters")
-                except Exception as e:
-                    logger.warning(f"Could not read {posout_file}: {str(e)}")
+                if self._is_file_generated(posout_file, files_before, files_after):
+                    try:
+                        with open(filepath, 'r', encoding='utf-8') as f:
+                            content = f.read()
+                            if content.strip():
+                                output_files[posout_file] = content
+                                logger.info(f"Successfully read dynamically generated {posout_file}: {len(content)} characters")
+                    except Exception as e:
+                        logger.warning(f"Could not read {posout_file}: {str(e)}")
         
-        # Also collect other files that might be generated
-        other_expected_files = [
-            'sentence.txt',  # Last processed sentence
-            'testpaper.txt',  # Original input
-            'annoutput.txt',
-            'display.txt'
-        ]
-        
-        for filename in other_expected_files:
-            filepath = os.path.join(self.java_project_path, filename)
-            if os.path.exists(filepath):
-                try:
-                    with open(filepath, 'r', encoding='utf-8') as f:
-                        content = f.read()
-                        if content.strip():
-                            output_files[filename] = content
-                            logger.info(f"Successfully read {filename}: {len(content)} characters")
-                except Exception as e:
-                    logger.warning(f"Could not read {filename}: {str(e)}")
+        # If no files were found, log an error
+        if not output_files:
+            logger.error("No dynamically generated output files found!")
+            logger.error("This might indicate that the Java processing is not working correctly")
+            
+            # As a fallback, try to read any files that exist (but log a warning)
+            for filename in ['annoutput.txt', 'display.txt']:
+                filepath = os.path.join(self.java_project_path, filename)
+                if os.path.exists(filepath):
+                    try:
+                        with open(filepath, 'r', encoding='utf-8') as f:
+                            content = f.read()
+                            if content.strip():
+                                output_files[f"{filename}_fallback"] = content
+                                logger.warning(f"Using fallback file {filename}: {len(content)} characters")
+                    except Exception as e:
+                        logger.warning(f"Could not read fallback {filename}: {str(e)}")
         
         return output_files
+    
+    def _is_file_generated(self, filename, files_before, files_after):
+        """Check if a file was generated or modified during this processing run"""
+        if files_before is None or files_after is None:
+            return True  # If we can't check timestamps, assume it's generated
+        
+        # File is considered generated if:
+        # 1. It didn't exist before but exists now
+        # 2. It existed before but has a newer timestamp
+        
+        if filename not in files_before and filename in files_after:
+            return True  # New file
+        
+        if filename in files_before and filename in files_after:
+            return files_after[filename] > files_before[filename]  # Modified file
+        
+        return False
 
 # Initialize processor
 processor = NepaliTextProcessor(JAVA_PROJECT_PATH, SHELL_SCRIPT_PATH)
@@ -288,10 +382,18 @@ def process_nepali_text():
             f.write(f"Processed at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
             f.write("="*50 + "\n\n")
             
+            # Prioritize annoutput.txt if it exists
+            if 'annoutput.txt' in output_files:
+                f.write(f"\n=== MAIN OUTPUT: annoutput.txt ===\n")
+                f.write(output_files['annoutput.txt'])
+                f.write(f"\n=== END OF annoutput.txt ===\n\n")
+            
+            # Write other files
             for filename, content in output_files.items():
-                f.write(f"\n--- {filename} ---\n")
-                f.write(content)
-                f.write(f"\n--- End of {filename} ---\n\n")
+                if filename != 'annoutput.txt':  # Skip since we already wrote it above
+                    f.write(f"\n--- {filename} ---\n")
+                    f.write(content)
+                    f.write(f"\n--- End of {filename} ---\n\n")
         
         logger.info(f"Output file created: {output_path}")
         
